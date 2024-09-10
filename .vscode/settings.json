@@ -1,5 +1,18 @@
 {
     "files.associations": {
         "*.css": "tailwindcss"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "[typescript]": {
+        "editor.tabSize": 4
+    },
+    "editor.linkedEditing": true,
+    "[typescriptreact]": {
+        "editor.tabSize": 2
     }
 }
