@@ -44,7 +44,7 @@ export async function GET(request: Request) {
         const insert_ingredients_responses = await Promise.all(
             ingredients.map(
                 (ingredient: Ingredient) => client.sql`
-                    INSERT INTO ingredients (id, name, measure_type, calores, carbohydrates, protein, fats)
+                    INSERT INTO ingredients (id, name, measure_type, calories, carbohydrates, protein, fats)
                     VALUES (${ingredient.id}, ${ingredient.name}, ${ingredient.measure_type}, ${ingredient.macros.calories}, ${ingredient.macros.carbohydrates}, ${ingredient.macros.protein}, ${ingredient.macros.fat})
                 `,
             )

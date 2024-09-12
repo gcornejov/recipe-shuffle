@@ -30,7 +30,7 @@ export async function GET(request: Request) {
                 id VARCHAR PRIMARY KEY,
                 name VARCHAR,
                 measure_type measure_unit,
-                calores NUMERIC(6,2),
+                calories NUMERIC(6,2),
                 carbohydrates NUMERIC(6,2),
                 protein NUMERIC(6,2),
                 fats NUMERIC(6,2)

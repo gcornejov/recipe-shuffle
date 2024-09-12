@@ -2,7 +2,7 @@
 
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 
-export default function Search() {
+export function SearchBar() {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
@@ -32,4 +32,8 @@ export default function Search() {
       />
     </>
   )
+}
+
+export function SearchTag() {
+
 }

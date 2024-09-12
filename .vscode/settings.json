@@ -8,11 +8,13 @@
     "emmet.syntaxProfiles": {
         "javascript": "jsx"
     },
-    "[typescript]": {
+    "[typescript][javascript]": {
         "editor.tabSize": 4
     },
     "editor.linkedEditing": true,
-    "[typescriptreact]": {
+    "[typescriptreact][javascriptreact]": {
         "editor.tabSize": 2
-    }
+    },
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.importModuleSpecifier": "non-relative"
 }
