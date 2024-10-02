@@ -17,6 +17,27 @@ export async function getRecipesByIngredient(ingredientName: string | undefined)
     return queryResult.rows;
 }
 
+export async function getRecipesByIngredients(ingredients: Array<string>): Promise<Array<Recipe>> {
+    if (!ingredients) {
+        return [];
+    }
+
+    const ingredientsFilter = ingredients
+        .map((_, index: number) => `i.name = $${index + 1}`)
+        .join(" OR ");
+
+    const query = `
+        SELECT DISTINCT r.*
+        FROM recipes r
+        INNER JOIN recipes_ingredients ri ON r.id = ri.recipe_id
+        INNER JOIN ingredients i ON i.id = ri.ingredient_id
+        WHERE ${ingredientsFilter};
+    `;
+    const queryResult = await sql.query(query, ingredients);
+
+    return queryResult.rows;
+}
+
 export async function getFullRecipe(recipeId: string) {
     const queryRecipe = sql<RecipeWithIngredients>`SELECT * FROM recipes WHERE id = ${recipeId};`;
 

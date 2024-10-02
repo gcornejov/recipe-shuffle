@@ -1,15 +1,25 @@
-import { SearchBar } from "@/app/ui/search";
+import { SearchBar, SearchBarAutosuggest, SearchTag } from "@/app/ui/search";
 import Separator from "@/app/ui/separator";
-import { getRecipesByIngredient } from "@/app/lib/data";
+import { getRecipesByIngredients } from "@/app/lib/data";
 import { Recipe } from "@/app/lib/definitions";
 
-export default async function Page({ searchParams }: { searchParams?: { ingredients?: string } }) {
-  const recipes: Array<Recipe> = await getRecipesByIngredient(searchParams?.ingredients)
+function parseIngredientsParams(ingredients?: string | Object): Array<string> {
+  if (!ingredients) {
+    return [""]
+  }
+
+  return typeof ingredients === "string" ? [ingredients] : Object.values(ingredients);
+}
+
+export default async function Page({ searchParams }: { searchParams?: { ingredient?: string | Object } }) {
+  const ingredients: Array<string> = parseIngredientsParams(searchParams?.ingredient);
+  const recipes: Array<Recipe> = await getRecipesByIngredients(ingredients);
 
   return (
     <>
       <div>
-        <SearchBar />
+        <SearchBarAutosuggest />
+        <SearchTag />
         <Separator />
       </div>
       <div>
