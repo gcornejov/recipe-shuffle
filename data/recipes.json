@@ -1,37 +1,54 @@
 [
     {
         "name": "Pancakes",
+        "difficulty": "easy",
+        "raiting": 4.8,
+        "description": "Perfect pancakes are easier to make than you think. This pancake recipe produces thick, fluffy, and all-around delicious pancakes with just a few ingredients that are probably already in your kitchen (and it's so much better than the boxed stuff).",
         "ingredients": [
             {
                 "id": "bb50690b-7eb9-4d51-8e2f-343c4ce4e40c",
                 "ingredient_id": "d6004110-825b-445e-8c97-c1f0c9cc0182",
+                "quantity": 1.5
+            },
+            {
+                "id": "3a267aa2-7412-4708-90cc-5c6789e2e3b5",
+                "ingredient_id": "8b80711d-fdeb-4eb6-bbd8-47c51382f810",
+                "quantity": 3.5
+            },
+            {
+                "id": "a1b6ccde-27b6-4154-b83d-99b6309ab455",
+                "ingredient_id": "485a10d8-7f43-4dcd-ac2e-54f6632d353d",
                 "quantity": 1
+            },
+            { 
+                "id": "e2befc72-fe1d-4c84-bc41-5942409e742e",
+                "ingredient_id": "335c2a6f-8d8f-41d8-9762-2a386e4c1fb9",
+                "quantity": 0.25
             },
             {
                 "id": "8254b434-b061-4ee5-9fff-e33631701713",
                 "ingredient_id": "6753d16b-a4a1-4409-837b-956f5e4eff3a",
-                "quantity": 1
+                "quantity": 1.25
+            },
+            {
+                "id": "5efbc5b3-493f-441b-adf6-31a23e4c74ec",
+                "ingredient_id": "4ba85f8f-9223-4a47-915e-ac08a74087a4",
+                "quantity": 0.2
             },
             {
                 "id": "c5b4e40a-2700-4e5c-9faa-bc7ae9d91419",
                 "ingredient_id": "715061f7-34ed-4d6d-b9de-7d78ca639dbe",
                 "quantity": 1
-            },
-            {
-                "id": "a1b6ccde-27b6-4154-b83d-99b6309ab455",
-                "ingredient_id": "485a10d8-7f43-4dcd-ac2e-54f6632d353d",
-                "quantity": 2
-            },
-            {
-                "id": "3a267aa2-7412-4708-90cc-5c6789e2e3b5",
-                "ingredient_id": "8b80711d-fdeb-4eb6-bbd8-47c51382f810",
-                "quantity": 2
             }
         ],
+        "steps": "--Sift the dry ingredients together.--Make a well, then add the wet ingredients. Stir to combine.--Scoop the batter onto a hot griddle or pan.--Cook for two to three minutes, then flip.--Continue cooking until brown on both sides.",
         "id": "63680042-a683-4028-99e3-95dc3347d562"
     },
     {
         "name": "Guacamole",
+        "difficulty": "easy",
+        "raiting": 2.5,
+        "description": "",
         "ingredients": [
             {
                 "id": "cc6bbb39-6f0c-4753-ae80-2489971eafe9",
@@ -59,10 +76,14 @@
                 "quantity": 0.25
             }
         ],
+        "steps": "",
         "id": "3276dc37-a940-4c56-a356-2629872a1589"
     },
     {
         "name": "Spaghetti Bolognese",
+        "difficulty": "easy",
+        "raiting": 2.5,
+        "description": "",
         "ingredients": [
             {
                 "id": "c398e72d-e63f-4bc4-a6b4-8cee486dc608",
@@ -90,10 +111,14 @@
                 "quantity": 100
             }
         ],
+        "steps": "",
         "id": "7681cc26-943b-460f-a929-b76b646ffd48"
     },
     {
         "name": "Caesar Salad",
+        "difficulty": "easy",
+        "raiting": 2.5,
+        "description": "",
         "ingredients": [
             {
                 "id": "33480213-8342-4cd1-89bc-744e83067c90",
@@ -121,10 +146,14 @@
                 "quantity": 0.25
             }
         ],
+        "steps": "",
         "id": "6c7c1a77-6500-463b-98da-dfdee3a03b52"
     },
     {
         "name": "Chicken Curry",
+        "difficulty": "easy",
+        "raiting": 2.5,
+        "description": "",
         "ingredients": [
             {
                 "id": "13a0d91c-5917-4b41-93a9-b01a41fe73ed",
@@ -152,10 +181,14 @@
                 "quantity": 1
             }
         ],
+        "steps": "",
         "id": "8a787190-31ca-4709-bb0d-7cce588b2928"
     },
     {
         "name": "Vegetable Stir Fry",
+        "difficulty": "easy",
+        "raiting": 2.5,
+        "description": "",
         "ingredients": [
             {
                 "id": "e3ed1f9d-93b0-454c-a239-56c166be2e61",
@@ -183,10 +216,14 @@
                 "quantity": 1
             }
         ],
+        "steps": "",
         "id": "1d895949-6216-4b0a-ac09-5951d3110c6a"
     },
     {
         "name": "Fish Tacos",
+        "difficulty": "easy",
+        "raiting": 2.5,
+        "description": "",
         "ingredients": [
             {
                 "id": "0644ae84-8176-4830-af43-211d81f25e67",
@@ -214,10 +251,14 @@
                 "quantity": 100
             }
         ],
+        "steps": "",
         "id": "5b3d8658-aa88-4e46-821d-2490aee51eb1"
     },
     {
         "name": "Mashed Potatoes",
+        "difficulty": "easy",
+        "raiting": 2.5,
+        "description": "",
         "ingredients": [
             {
                 "id": "dbc3c67e-db89-4a1b-8265-97f50aaef536",
@@ -240,10 +281,14 @@
                 "quantity": 1
             }
         ],
+        "steps": "",
         "id": "5910ddaf-8562-4651-87f3-19ea1be7d8ea"
     },
     {
         "name": "Apple Pie",
+        "difficulty": "easy",
+        "raiting": 2.5,
+        "description": "",
         "ingredients": [
             {
                 "id": "bfc891bc-14f1-404e-a622-51502d7ad8e9",
@@ -271,6 +316,7 @@
                 "quantity": 0.5
             }
         ],
+        "steps": "",
         "id": "bad486a2-238e-43dd-a40c-6970efff9c40"
     }
 ]

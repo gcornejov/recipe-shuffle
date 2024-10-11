@@ -7,6 +7,7 @@ export async function GET(request: Request) {
     DROP TABLE IF EXISTS recipes;
     DROP TABLE IF EXISTS ingredients;
     DROP TYPE measure_unit;
+    DROP TYPE difficulty_level;
     */
     const client = await db.connect();
 
@@ -25,11 +26,19 @@ export async function GET(request: Request) {
             );`;
         console.log(measure_units_type_result);
 
+        const difficulty_level_result = await client.sql`
+            CREATE TYPE difficulty_level AS ENUM(
+                'easy',
+                'medium',
+                'hard'
+            );`;
+        console.log(difficulty_level_result);
+
         const ingredients_result = await client.sql`
             CREATE TABLE ingredients( 
                 id VARCHAR PRIMARY KEY,
                 name VARCHAR,
-                measure_type measure_unit,
+                unit_type measure_unit,
                 calories NUMERIC(6,2),
                 carbohydrates NUMERIC(6,2),
                 protein NUMERIC(6,2),
@@ -41,6 +50,8 @@ export async function GET(request: Request) {
             CREATE TABLE recipes(
                 id VARCHAR PRIMARY KEY,
                 name VARCHAR,
+                difficulty difficulty_level,
+                raiting NUMERIC(2,1),
                 description VARCHAR,
                 steps VARCHAR
             );
@@ -63,6 +74,7 @@ export async function GET(request: Request) {
 
         return NextResponse.json({
                 measure_units_type_result,
+                difficulty_level_result,
                 ingredients_result,
                 recipes_result,
                 recipes_ingredients_result,

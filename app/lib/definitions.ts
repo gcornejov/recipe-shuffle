@@ -1,4 +1,5 @@
 export type MeasureUnit = "unit" | "head" | "cup" | "tbsp" | "tsp" | "g" | "ml";
+export type DifficultyLevel = "easy" | "medium" | "hard";
 
 export type NutritionalValue = {
     calories: number,
@@ -10,15 +11,19 @@ export type NutritionalValue = {
 export type Ingredient = NutritionalValue & {
     id: string,
     name: string,
-    measure_type: MeasureUnit,
+    unit_type: MeasureUnit,
 };
 
 export type Recipe = {
     id: string,
     name: string,
+    difficulty: DifficultyLevel,
+    raiting: number,
     description: string,
     steps: string,
 };
+
+export type RecipeBriefing = Omit<Recipe, "description" | "steps">
 
 export type IngredientWithQuantity = Ingredient & { quantity: number };
 

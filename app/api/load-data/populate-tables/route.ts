@@ -11,20 +11,24 @@ type Macros = {
 type Ingredient = {
     id: string,
     name: string,
-    measure_type: string,
-    macros: Macros;
+    unit_type: string,
+    macros: Macros,
 }
 
 type RecipeIngredient = {
     id: string,
     ingredient_id: string,
-    quantity: number
+    quantity: number,
 }
 
 type Recipe = {
-    id: string;
-    name: string;
-    ingredients: Array<RecipeIngredient>;
+    id: string,
+    name: string,
+    difficulty: string,
+    raiting: number,
+    description: string,
+    ingredients: Array<RecipeIngredient>,
+    steps: string,
 }
 
 export async function GET(request: Request) {
@@ -44,15 +48,15 @@ export async function GET(request: Request) {
         const insert_ingredients_responses = await Promise.all(
             ingredients.map(
                 (ingredient: Ingredient) => client.sql`
-                    INSERT INTO ingredients (id, name, measure_type, calories, carbohydrates, protein, fats)
-                    VALUES (${ingredient.id}, ${ingredient.name}, ${ingredient.measure_type}, ${ingredient.macros.calories}, ${ingredient.macros.carbohydrates}, ${ingredient.macros.protein}, ${ingredient.macros.fat})
+                    INSERT INTO ingredients (id, name, unit_type, calories, carbohydrates, protein, fats)
+                    VALUES (${ingredient.id}, ${ingredient.name}, ${ingredient.unit_type}, ${ingredient.macros.calories}, ${ingredient.macros.carbohydrates}, ${ingredient.macros.protein}, ${ingredient.macros.fat})
                 `,
             )
         ); 
         const insert_recipes_response = await Promise.all(
             recipes.map(
                 (recipe: Recipe) => client.sql`
-                    INSERT INTO recipes VALUES (${recipe.id},${recipe.name},'','')
+                    INSERT INTO recipes VALUES (${recipe.id}, ${recipe.name}, ${recipe.difficulty}, ${recipe.raiting}, ${recipe.description}, ${recipe.steps})
                 `,
             )
         );
