@@ -17,7 +17,7 @@ export default async function RecipeDetailComponent({ id }: { id: string }) {
   // });
 
   const { recipe, recipeIngredients, recipeNutritionalAgg } = await getFullRecipe(id);
-  // console.log(recipeIngredients);
+  console.log(recipe);
 
   return (
     <>
@@ -37,7 +37,7 @@ export default async function RecipeDetailComponent({ id }: { id: string }) {
         {recipeIngredients.map(
           (ingredient: IngredientWithQuantity) =>
             <p key={ingredient.id}>
-              {ingredient.quantity} {ingredient.measure_type} - {ingredient.name}
+              {ingredient.quantity} {ingredient.unit_type} - {ingredient.name}
             </p>
         )}
       </div>

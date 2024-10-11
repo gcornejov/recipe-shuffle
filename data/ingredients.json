@@ -8,7 +8,7 @@
             "protein": 13,
             "fat": 1
         },
-        "measure_type": "cup"
+        "unit_type": "cup"
     },
     {
         "id": "6753d16b-a4a1-4409-837b-956f5e4eff3a",
@@ -19,7 +19,7 @@
             "protein": 8,
             "fat": 2.5
         },
-        "measure_type": "cup"
+        "unit_type": "cup"
     },
     {
         "id": "715061f7-34ed-4d6d-b9de-7d78ca639dbe",
@@ -30,7 +30,7 @@
             "protein": 6,
             "fat": 5
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "485a10d8-7f43-4dcd-ac2e-54f6632d353d",
@@ -41,7 +41,7 @@
             "protein": 0,
             "fat": 0
         },
-        "measure_type": "tbsp"
+        "unit_type": "tbsp"
     },
     {
         "id": "8b80711d-fdeb-4eb6-bbd8-47c51382f810",
@@ -52,7 +52,7 @@
             "protein": 0,
             "fat": 0
         },
-        "measure_type": "tsp"
+        "unit_type": "tsp"
     },
     {
         "id": "5326df96-e2cc-4969-b28c-d3950fabb27f",
@@ -63,7 +63,7 @@
             "protein": 3,
             "fat": 21
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "24946b0c-5066-4ba6-9059-71e7b6dca70c",
@@ -74,7 +74,7 @@
             "protein": 0,
             "fat": 0
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "fc099eeb-a40f-4b91-96ff-6d8f77b94ac7",
@@ -85,7 +85,7 @@
             "protein": 1,
             "fat": 0
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "5af4a8ec-2799-4a1d-9aa8-957764dd1a69",
@@ -96,7 +96,7 @@
             "protein": 1,
             "fat": 0
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "9f844d80-af8a-406b-a08b-510359f30470",
@@ -107,7 +107,7 @@
             "protein": 0.1,
             "fat": 0
         },
-        "measure_type": "cup"
+        "unit_type": "cup"
     },
     {
         "id": "a1f606d9-49b1-4292-aa9f-95b0e0c7730d",
@@ -118,7 +118,7 @@
             "protein": 5,
             "fat": 1
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "2ae2f24d-d79d-4d64-9cf3-80fa6ef465eb",
@@ -129,7 +129,7 @@
             "protein": 26,
             "fat": 17
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "4a049240-db40-413a-aa8c-fdbb0e68615e",
@@ -140,7 +140,7 @@
             "protein": 1,
             "fat": 0
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "ece69701-cc55-461f-a180-3a66f10ee8eb",
@@ -151,7 +151,7 @@
             "protein": 0,
             "fat": 14
         },
-        "measure_type": "tbsp"
+        "unit_type": "tbsp"
     },
     {
         "id": "cf7a7512-9e3f-41c2-89da-ad3c82816b6c",
@@ -162,7 +162,7 @@
             "protein": 3,
             "fat": 3
         },
-        "measure_type": "ml"
+        "unit_type": "ml"
     },
     {
         "id": "fcb674dc-1c9f-4c9e-8849-14eb2578235f",
@@ -173,7 +173,7 @@
             "protein": 1,
             "fat": 0
         },
-        "measure_type": "head"
+        "unit_type": "head"
     },
     {
         "id": "4cbbd154-6a10-4cc3-ac64-5274cb82335b",
@@ -184,7 +184,7 @@
             "protein": 38,
             "fat": 29
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "848f1930-7651-4158-b5a6-1845d55ed5ff",
@@ -195,7 +195,7 @@
             "protein": 4,
             "fat": 2
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "7ff1e81e-3f80-4dde-a9be-1a68f5dffa95",
@@ -206,7 +206,7 @@
             "protein": 0,
             "fat": 8
         },
-        "measure_type": "tbsp"
+        "unit_type": "tbsp"
     },
     {
         "id": "5388ca1c-a592-4cc4-ac61-febf9b63ce8b",
@@ -217,7 +217,7 @@
             "protein": 26,
             "fat": 11
         },
-        "measure_type": "cup"
+        "unit_type": "cup"
     },
     {
         "id": "73a432dd-3992-47c7-b63c-426a15a78d8d",
@@ -228,7 +228,7 @@
             "protein": 1,
             "fat": 0.5
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "b7fb8c82-c016-4bf2-8cf9-505f093fb732",
@@ -239,7 +239,7 @@
             "protein": 5,
             "fat": 48
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "c1665258-ceae-449c-88c8-392eb5bdf59f",
@@ -250,7 +250,7 @@
             "protein": 6,
             "fat": 0.5
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "90ebce03-f71d-4e3f-93ff-e930a9683a80",
@@ -261,7 +261,7 @@
             "protein": 1,
             "fat": 0
         },
-        "measure_type": "tbsp"
+        "unit_type": "tbsp"
     },
     {
         "id": "b3292a27-304c-4da2-b5b2-dcd545f9aad4",
@@ -272,7 +272,7 @@
             "protein": 2,
             "fat": 0
         },
-        "measure_type": "cup"
+        "unit_type": "cup"
     },
     {
         "id": "024d9e43-e20e-4b7c-bd53-599620b8eec2",
@@ -283,7 +283,7 @@
             "protein": 22,
             "fat": 12
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "908645dc-a7c0-49ab-8133-4fcecc53def0",
@@ -294,7 +294,7 @@
             "protein": 3,
             "fat": 6
         },
-        "measure_type": "tbsp"
+        "unit_type": "tbsp"
     },
     {
         "id": "35b0a97e-52ff-46ce-83ca-b80d058b6321",
@@ -305,7 +305,7 @@
             "protein": 1,
             "fat": 0
         },
-        "measure_type": "tbsp"
+        "unit_type": "tbsp"
     },
     {
         "id": "4f733d9c-a2dc-4001-b678-6d7630915652",
@@ -316,7 +316,7 @@
             "protein": 2,
             "fat": 0
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "4ba85f8f-9223-4a47-915e-ac08a74087a4",
@@ -327,7 +327,7 @@
             "protein": 0,
             "fat": 12
         },
-        "measure_type": "cup"
+        "unit_type": "cup"
     },
     {
         "id": "d98ea964-5cd1-47b1-aa61-fc271ee41144",
@@ -338,7 +338,7 @@
             "protein": 0.5,
             "fat": 0.3
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "b7924fe7-9889-4294-a270-156e049569cc",
@@ -349,7 +349,7 @@
             "protein": 3,
             "fat": 14
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "fed39ccd-14e3-4ecf-b9da-0538cae61545",
@@ -360,7 +360,7 @@
             "protein": 0,
             "fat": 0
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "15bf1846-58c3-4d77-8964-127aa51fe4f2",
@@ -371,7 +371,7 @@
             "protein": 3,
             "fat": 1
         },
-        "measure_type": "tbsp"
+        "unit_type": "tbsp"
     },
     {
         "id": "72a2ec87-9738-435b-b48f-1c46db32c382",
@@ -382,7 +382,7 @@
             "protein": 29,
             "fat": 1
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "67a34802-41a2-46f7-8cf4-c38b509a9ac2",
@@ -393,7 +393,7 @@
             "protein": 0.5,
             "fat": 0
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "e433bb4b-25ff-40c1-ab7d-e29407f70afd",
@@ -404,7 +404,7 @@
             "protein": 3,
             "fat": 0
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "7521fbbb-0f99-4f1c-86f8-10b1598740c4",
@@ -415,7 +415,7 @@
             "protein": 25,
             "fat": 33
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "5ae407bc-a581-4d15-9d4c-5a3d0aa70c52",
@@ -426,7 +426,7 @@
             "protein": 1,
             "fat": 0
         },
-        "measure_type": "tbsp"
+        "unit_type": "tbsp"
     },
     {
         "id": "4a6a607b-8a88-4c58-83e2-0ea0049f0c26",
@@ -437,7 +437,7 @@
             "protein": 1,
             "fat": 0
         },
-        "measure_type": "unit"
+        "unit_type": "unit"
     },
     {
         "id": "0efdfedb-371b-4f93-b18e-f1a359e2ab94",
@@ -448,7 +448,7 @@
             "protein": 26,
             "fat": 17
         },
-        "measure_type": "cup"
+        "unit_type": "cup"
     },
     {
         "id": "e1da6867-6f46-4fc7-8553-49342367ffe7",
@@ -459,7 +459,7 @@
             "protein": 2,
             "fat": 12
         },
-        "measure_type": "g"
+        "unit_type": "g"
     },
     {
         "id": "b991fa7e-d622-44ca-8157-f26c99d5260f",
@@ -470,7 +470,7 @@
             "protein": 3,
             "fat": 0
         },
-        "measure_type": "tbsp"
+        "unit_type": "tbsp"
     },
     {
         "id": "98495ebf-f2dd-41e2-ac04-8f2dce5b2121",
@@ -481,6 +481,17 @@
             "protein": 20,
             "fat": 1
         },
-        "measure_type": "tsp"
+        "unit_type": "tsp"
+    },
+    {
+        "id": "335c2a6f-8d8f-41d8-9762-2a386e4c1fb9",
+        "name": "Salt",
+        "macros": {
+            "calories": 0,
+            "carbohydrates": 0,
+            "protein": 0,
+            "fat": 0
+        },
+        "unit_type": "tsp"
     }
 ]

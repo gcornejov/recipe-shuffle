@@ -1,5 +1,5 @@
 import { sql } from "@vercel/postgres";
-import { IngredientWithQuantity, NutritionalValue, Recipe, RecipeWithIngredients } from "@/app/lib/definitions";
+import { IngredientWithQuantity, NutritionalValue, Recipe, RecipeBriefing } from "@/app/lib/definitions";
 
 export async function getRecipesByIngredient(ingredientName: string | undefined): Promise<Array<Recipe>> {
     if (!ingredientName) {
@@ -17,7 +17,7 @@ export async function getRecipesByIngredient(ingredientName: string | undefined)
     return queryResult.rows;
 }
 
-export async function getRecipesByIngredients(ingredients: Array<string>): Promise<Array<Recipe>> {
+export async function getRecipesByIngredients(ingredients: Array<string>): Promise<Array<RecipeBriefing>> {
     if (!ingredients) {
         return [];
     }
@@ -27,7 +27,7 @@ export async function getRecipesByIngredients(ingredients: Array<string>): Promi
         .join(" OR ");
 
     const query = `
-        SELECT DISTINCT r.*
+        SELECT DISTINCT r.id, r.name, r.difficulty, r.raiting
         FROM recipes r
         INNER JOIN recipes_ingredients ri ON r.id = ri.recipe_id
         INNER JOIN ingredients i ON i.id = ri.ingredient_id
@@ -39,7 +39,7 @@ export async function getRecipesByIngredients(ingredients: Array<string>): Promi
 }
 
 export async function getFullRecipe(recipeId: string) {
-    const queryRecipe = sql<RecipeWithIngredients>`SELECT * FROM recipes WHERE id = ${recipeId};`;
+    const queryRecipe = sql<Recipe>`SELECT * FROM recipes WHERE id = ${recipeId};`;
 
     const queryRecipeIngredients = sql<IngredientWithQuantity>`
         SELECT 
