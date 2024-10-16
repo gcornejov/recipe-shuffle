@@ -1,43 +1,50 @@
 [
     {
         "name": "Pancakes",
-        "difficulty": "easy",
-        "raiting": 4.8,
+        "difficulty": "medium",
+        "raiting": 4.5,
         "description": "Perfect pancakes are easier to make than you think. This pancake recipe produces thick, fluffy, and all-around delicious pancakes with just a few ingredients that are probably already in your kitchen (and it's so much better than the boxed stuff).",
         "ingredients": [
             {
                 "id": "bb50690b-7eb9-4d51-8e2f-343c4ce4e40c",
                 "ingredient_id": "d6004110-825b-445e-8c97-c1f0c9cc0182",
+                "unit_type": "cup",
                 "quantity": 1.5
             },
             {
                 "id": "3a267aa2-7412-4708-90cc-5c6789e2e3b5",
                 "ingredient_id": "8b80711d-fdeb-4eb6-bbd8-47c51382f810",
+                "unit_type": "tsp",
                 "quantity": 3.5
             },
             {
                 "id": "a1b6ccde-27b6-4154-b83d-99b6309ab455",
                 "ingredient_id": "485a10d8-7f43-4dcd-ac2e-54f6632d353d",
+                "unit_type": "tbsp",
                 "quantity": 1
             },
             { 
                 "id": "e2befc72-fe1d-4c84-bc41-5942409e742e",
                 "ingredient_id": "335c2a6f-8d8f-41d8-9762-2a386e4c1fb9",
+                "unit_type": "tsp",
                 "quantity": 0.25
             },
             {
                 "id": "8254b434-b061-4ee5-9fff-e33631701713",
                 "ingredient_id": "6753d16b-a4a1-4409-837b-956f5e4eff3a",
+                "unit_type": "cup",
                 "quantity": 1.25
             },
             {
                 "id": "5efbc5b3-493f-441b-adf6-31a23e4c74ec",
                 "ingredient_id": "4ba85f8f-9223-4a47-915e-ac08a74087a4",
-                "quantity": 0.2
+                "unit_type": "tbsp",
+                "quantity": 3
             },
             {
                 "id": "c5b4e40a-2700-4e5c-9faa-bc7ae9d91419",
                 "ingredient_id": "715061f7-34ed-4d6d-b9de-7d78ca639dbe",
+                "unit_type": "unit",
                 "quantity": 1
             }
         ],
@@ -47,36 +54,47 @@
     {
         "name": "Guacamole",
         "difficulty": "easy",
-        "raiting": 2.5,
-        "description": "",
+        "raiting": 4.8,
+        "description": "This guacamole recipe gets a tasty kick from cayenne and cilantro. You can serve it smooth or chunky depending on your tastes. Serve with homemade tortilla chips.",
         "ingredients": [
             {
                 "id": "cc6bbb39-6f0c-4753-ae80-2489971eafe9",
                 "ingredient_id": "5326df96-e2cc-4969-b28c-d3950fabb27f",
-                "quantity": 2
+                "unit_type": "g",
+                "quantity": 3
             },
             {
                 "id": "f8aa5512-0d55-4738-8927-56fa37b28b64",
                 "ingredient_id": "24946b0c-5066-4ba6-9059-71e7b6dca70c",
+                "unit_type": "g",
                 "quantity": 1
             },
             {
                 "id": "69bcac2a-980b-4b23-b3d0-ba9a4efdba16",
                 "ingredient_id": "fc099eeb-a40f-4b91-96ff-6d8f77b94ac7",
-                "quantity": 1
+                "unit_type": "g",
+                "quantity": 2
             },
             {
                 "id": "4de02f27-c387-4866-be84-7d305ad5a9ff",
                 "ingredient_id": "5af4a8ec-2799-4a1d-9aa8-957764dd1a69",
+                "unit_type": "g",
                 "quantity": 0.25
             },
             {
                 "id": "84e59e7b-18c5-4d63-803f-d6e46a000f22",
                 "ingredient_id": "9f844d80-af8a-406b-a08b-510359f30470",
-                "quantity": 0.25
+                "unit_type": "g",
+                "quantity": 3
+            },
+            {
+                "id": "e6d7aa9f-720d-4eff-b086-109e8d2315c3",
+                "ingredient_id": "c1665258-ceae-449c-88c8-392eb5bdf59f",
+                "unit_type": "g",
+                "quantity": 1
             }
         ],
-        "steps": "",
+        "steps": "--Mash avocados, lime juice, and salt together in a medium bowl; mix in tomatoes, onion, cilantro, and garlic.--Stir in cayenne pepper. Serve immediately, or cover and refrigerate for 1 hour for improved flavor.",
         "id": "3276dc37-a940-4c56-a356-2629872a1589"
     },
     {
@@ -88,26 +106,31 @@
             {
                 "id": "c398e72d-e63f-4bc4-a6b4-8cee486dc608",
                 "ingredient_id": "a1f606d9-49b1-4292-aa9f-95b0e0c7730d",
+                "unit_type": "g",
                 "quantity": 200
             },
             {
                 "id": "09215b00-8da9-46ad-ab87-a6fffae6bb83",
                 "ingredient_id": "2ae2f24d-d79d-4d64-9cf3-80fa6ef465eb",
+                "unit_type": "g",
                 "quantity": 400
             },
             {
                 "id": "1880a7f5-f7c5-4eb0-8ba1-5a0f01a17d3b",
                 "ingredient_id": "4a049240-db40-413a-aa8c-fdbb0e68615e",
+                "unit_type": "g",
                 "quantity": 1
             },
             {
                 "id": "cc13c9a9-32ee-4dbd-ab3c-74de7fc8a2e8",
                 "ingredient_id": "ece69701-cc55-461f-a180-3a66f10ee8eb",
+                "unit_type": "g",
                 "quantity": 2
             },
             {
                 "id": "e186c7a1-6866-41ce-9e90-3106f0f0d004",
                 "ingredient_id": "cf7a7512-9e3f-41c2-89da-ad3c82816b6c",
+                "unit_type": "g",
                 "quantity": 100
             }
         ],
@@ -123,26 +146,31 @@
             {
                 "id": "33480213-8342-4cd1-89bc-744e83067c90",
                 "ingredient_id": "fcb674dc-1c9f-4c9e-8849-14eb2578235f",
+                "unit_type": "g",
                 "quantity": 1
             },
             {
                 "id": "61c1118c-628e-47b1-a2ff-9853cc18fbf8",
                 "ingredient_id": "4cbbd154-6a10-4cc3-ac64-5274cb82335b",
+                "unit_type": "g",
                 "quantity": 100
             },
             {
                 "id": "43635196-3299-40ed-9a52-1fc274a50f27",
                 "ingredient_id": "848f1930-7651-4158-b5a6-1845d55ed5ff",
+                "unit_type": "g",
                 "quantity": 50
             },
             {
                 "id": "af45ec92-7107-4c5d-95b4-911b7591481b",
                 "ingredient_id": "7ff1e81e-3f80-4dde-a9be-1a68f5dffa95",
+                "unit_type": "g",
                 "quantity": 2
             },
             {
                 "id": "340be9ba-6d39-4f23-b70d-a83e639c9cfc",
                 "ingredient_id": "5388ca1c-a592-4cc4-ac61-febf9b63ce8b",
+                "unit_type": "g",
                 "quantity": 0.25
             }
         ],
@@ -158,26 +186,31 @@
             {
                 "id": "13a0d91c-5917-4b41-93a9-b01a41fe73ed",
                 "ingredient_id": "73a432dd-3992-47c7-b63c-426a15a78d8d",
+                "unit_type": "g",
                 "quantity": 500
             },
             {
                 "id": "fe485638-b59c-49dc-9256-7a3aac43e532",
                 "ingredient_id": "b7fb8c82-c016-4bf2-8cf9-505f093fb732",
+                "unit_type": "g",
                 "quantity": 200
             },
             {
                 "id": "8e19b1a9-d06c-4507-a972-7b00589ea08e",
                 "ingredient_id": "c1665258-ceae-449c-88c8-392eb5bdf59f",
+                "unit_type": "g",
                 "quantity": 2
             },
             {
                 "id": "bb6f06df-eb25-4ba5-8595-323e2b099c95",
                 "ingredient_id": "90ebce03-f71d-4e3f-93ff-e930a9683a80",
+                "unit_type": "g",
                 "quantity": 1
             },
             {
                 "id": "2e768cf6-a89d-4773-b2d1-3474bb348619",
                 "ingredient_id": "b3292a27-304c-4da2-b5b2-dcd545f9aad4",
+                "unit_type": "g",
                 "quantity": 1
             }
         ],
@@ -193,26 +226,31 @@
             {
                 "id": "e3ed1f9d-93b0-454c-a239-56c166be2e61",
                 "ingredient_id": "024d9e43-e20e-4b7c-bd53-599620b8eec2",
+                "unit_type": "g",
                 "quantity": 300
             },
             {
                 "id": "a629fd89-bf6a-487f-8428-91af31c92bfd",
                 "ingredient_id": "908645dc-a7c0-49ab-8133-4fcecc53def0",
+                "unit_type": "g",
                 "quantity": 2
             },
             {
                 "id": "0e820c3e-2865-490e-bad3-43a4146ae2ac",
                 "ingredient_id": "35b0a97e-52ff-46ce-83ca-b80d058b6321",
+                "unit_type": "g",
                 "quantity": 1
             },
             {
                 "id": "d62a636c-9728-4d0f-bb14-a939e00f7715",
                 "ingredient_id": "4f733d9c-a2dc-4001-b678-6d7630915652",
+                "unit_type": "g",
                 "quantity": 100
             },
             {
                 "id": "508ff3f1-62ab-41e6-a763-70afad3edbb2",
                 "ingredient_id": "4ba85f8f-9223-4a47-915e-ac08a74087a4",
+                "unit_type": "g",
                 "quantity": 1
             }
         ],
@@ -228,26 +266,31 @@
             {
                 "id": "0644ae84-8176-4830-af43-211d81f25e67",
                 "ingredient_id": "d98ea964-5cd1-47b1-aa61-fc271ee41144",
+                "unit_type": "g",
                 "quantity": 300
             },
             {
                 "id": "53656d17-42b7-4bf6-9b82-df68ccec3049",
                 "ingredient_id": "b7924fe7-9889-4294-a270-156e049569cc",
+                "unit_type": "g",
                 "quantity": 6
             },
             {
                 "id": "30ed8d05-da1d-4cae-ad33-232ec78da2d2",
                 "ingredient_id": "fed39ccd-14e3-4ecf-b9da-0538cae61545",
+                "unit_type": "g",
                 "quantity": 1
             },
             {
                 "id": "5ad032db-72d9-4c29-8f08-3856d2b81242",
                 "ingredient_id": "15bf1846-58c3-4d77-8964-127aa51fe4f2",
+                "unit_type": "g",
                 "quantity": 1
             },
             {
                 "id": "f649ef56-823c-42f1-aebe-5dab900b766e",
                 "ingredient_id": "72a2ec87-9738-435b-b48f-1c46db32c382",
+                "unit_type": "g",
                 "quantity": 100
             }
         ],
@@ -263,21 +306,25 @@
             {
                 "id": "dbc3c67e-db89-4a1b-8265-97f50aaef536",
                 "ingredient_id": "67a34802-41a2-46f7-8cf4-c38b509a9ac2",
+                "unit_type": "g",
                 "quantity": 1000
             },
             {
                 "id": "85f4c083-354e-4af6-9cd6-44dffd3537e9",
                 "ingredient_id": "e433bb4b-25ff-40c1-ab7d-e29407f70afd",
+                "unit_type": "g",
                 "quantity": 100
             },
             {
                 "id": "ed55d961-84f8-479a-b75c-acbe474fe100",
                 "ingredient_id": "7521fbbb-0f99-4f1c-86f8-10b1598740c4",
+                "unit_type": "g",
                 "quantity": 2
             },
             {
                 "id": "8be3869b-ef70-4df8-a964-38b644d13998",
                 "ingredient_id": "5ae407bc-a581-4d15-9d4c-5a3d0aa70c52",
+                "unit_type": "g",
                 "quantity": 1
             }
         ],
@@ -293,26 +340,31 @@
             {
                 "id": "bfc891bc-14f1-404e-a622-51502d7ad8e9",
                 "ingredient_id": "4a6a607b-8a88-4c58-83e2-0ea0049f0c26",
+                "unit_type": "g",
                 "quantity": 5
             },
             {
                 "id": "d52918d4-b6ea-4a86-9719-3d8a52275c9f",
                 "ingredient_id": "0efdfedb-371b-4f93-b18e-f1a359e2ab94",
+                "unit_type": "g",
                 "quantity": 1
             },
             {
                 "id": "4e1b4d27-ce09-42f7-b239-68bddd085041",
                 "ingredient_id": "e1da6867-6f46-4fc7-8553-49342367ffe7",
+                "unit_type": "g",
                 "quantity": 100
             },
             {
                 "id": "fea09dfd-93a0-474e-9eb2-d801c1cdb111",
                 "ingredient_id": "b991fa7e-d622-44ca-8157-f26c99d5260f",
+                "unit_type": "g",
                 "quantity": 1
             },
             {
                 "id": "5c8f26e8-7197-4cd2-9d84-8cecba56f2de",
                 "ingredient_id": "98495ebf-f2dd-41e2-ac04-8f2dce5b2121",
+                "unit_type": "g",
                 "quantity": 0.5
             }
         ],
