@@ -5,19 +5,26 @@ type Macros = {
     calories: number,
     carbohydrates: number,
     protein: number,
-    fat: number,
+    fats: number,
+}
+
+type Conversion = {
+    id: string,
+    unit_type: string,
+    ratio: number,
 }
 
 type Ingredient = {
     id: string,
     name: string,
-    unit_type: string,
     macros: Macros,
+    conversions: Array<Conversion>,
 }
 
 type RecipeIngredient = {
     id: string,
     ingredient_id: string,
+    unit_type: string,
     quantity: number,
 }
 
@@ -35,6 +42,7 @@ export async function GET(request: Request) {
     /*
     DELETE FROM recipes_ingredients;
     DELETE FROM recipes;
+    DELETE FROM conversions;
     DELETE FROM ingredients;
     */
     const client = await db.connect();
@@ -48,15 +56,24 @@ export async function GET(request: Request) {
         const insert_ingredients_responses = await Promise.all(
             ingredients.map(
                 (ingredient: Ingredient) => client.sql`
-                    INSERT INTO ingredients (id, name, unit_type, calories, carbohydrates, protein, fats)
-                    VALUES (${ingredient.id}, ${ingredient.name}, ${ingredient.unit_type}, ${ingredient.macros.calories}, ${ingredient.macros.carbohydrates}, ${ingredient.macros.protein}, ${ingredient.macros.fat})
+                    INSERT INTO ingredients 
+                    VALUES (${ingredient.id}, ${ingredient.name}, ${ingredient.macros.calories}, ${ingredient.macros.carbohydrates}, ${ingredient.macros.protein}, ${ingredient.macros.fats});
                 `,
             )
-        ); 
+        );
+        const insert_conversions_responses = await Promise.all(
+            ingredients.map(
+                (ingredient: Ingredient) => ingredient.conversions.map(
+                    (convesion: Conversion) => client.sql`
+                        INSERT INTO conversions VALUES (${convesion.id}, ${ingredient.id}, ${convesion.unit_type}, ${convesion.ratio});
+                    `,
+                )
+            )
+        );
         const insert_recipes_response = await Promise.all(
             recipes.map(
                 (recipe: Recipe) => client.sql`
-                    INSERT INTO recipes VALUES (${recipe.id}, ${recipe.name}, ${recipe.difficulty}, ${recipe.raiting}, ${recipe.description}, ${recipe.steps})
+                    INSERT INTO recipes VALUES (${recipe.id}, ${recipe.name}, ${recipe.difficulty}, ${recipe.raiting}, ${recipe.description}, ${recipe.steps});
                 `,
             )
         );
@@ -64,22 +81,25 @@ export async function GET(request: Request) {
             recipes.map(
                 (recipe: Recipe) => recipe.ingredients.map(
                     (recipe_ingredient: RecipeIngredient) => client.sql`
-                        INSERT INTO recipes_ingredients VALUES (${recipe_ingredient.id}, ${recipe.id}, ${recipe_ingredient.ingredient_id}, ${recipe_ingredient.quantity})
+                        INSERT INTO recipes_ingredients VALUES (${recipe_ingredient.id}, ${recipe.id}, ${recipe_ingredient.ingredient_id}, ${recipe_ingredient.unit_type}, ${recipe_ingredient.quantity});
                     `,
                 )
             )
         );
-        
+
         await client.sql`COMMIT`;
 
-        return NextResponse.json({
-            insert_ingredients_responses,
-            insert_recipes_response,
-            insert_recipes_ingredients_response,
-        }, 
-        { status: 200 }
-    );
+        return NextResponse.json(
+            {
+                insert_ingredients_responses,
+                insert_conversions_responses,
+                insert_recipes_response,
+                insert_recipes_ingredients_response,
+            },
+            { status: 200 }
+        );
     } catch (error) {
+        await client.sql`ROLLBACK`;
         console.log(error)
         return NextResponse.json({ error }, { status: 500 });
     }
