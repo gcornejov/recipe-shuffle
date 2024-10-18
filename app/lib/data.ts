@@ -27,7 +27,13 @@ export async function getRecipesByIngredients(ingredients: Array<string>): Promi
         .join(" OR ");
 
     const query = `
-        SELECT DISTINCT r.id, r.name, r.difficulty, r.raiting
+        SELECT DISTINCT 
+            r.id, 
+            r.name, 
+            r.difficulty, 
+            r.raiting, 
+            TRUNC(r.calories, 0) calories, 
+            r.servings
         FROM recipes r
         INNER JOIN recipes_ingredients ri ON r.id = ri.recipe_id
         INNER JOIN ingredients i ON i.id = ri.ingredient_id
