@@ -35,10 +35,12 @@ type Recipe = {
     raiting: number,
     description: string,
     ingredients: Array<RecipeIngredient>,
+    macros: Macros,
+    servings: number,
     steps: string,
 }
 
-export async function GET(request: Request) {
+export async function GET(_: Request) {
     /*
     DELETE FROM recipes_ingredients;
     DELETE FROM recipes;
@@ -73,7 +75,7 @@ export async function GET(request: Request) {
         const insert_recipes_response = await Promise.all(
             recipes.map(
                 (recipe: Recipe) => client.sql`
-                    INSERT INTO recipes VALUES (${recipe.id}, ${recipe.name}, ${recipe.difficulty}, ${recipe.raiting}, ${recipe.description}, ${recipe.steps});
+                    INSERT INTO recipes VALUES (${recipe.id}, ${recipe.name}, ${recipe.difficulty}, ${recipe.raiting}, ${recipe.description}, ${recipe.steps}, ${recipe.macros.calories}, ${recipe.macros.carbohydrates}, ${recipe.macros.protein}, ${recipe.macros.fats}, ${recipe.servings});
                 `,
             )
         );
