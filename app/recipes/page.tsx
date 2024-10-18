@@ -1,7 +1,7 @@
 import { SearchBarAutosuggest, SearchTags, RecipeCard } from "@/app/ui/search";
 import { getRecipesByIngredients } from "@/app/lib/data";
 import { RecipeBriefing } from "@/app/lib/definitions";
-import { StarIcon } from "@/app/ui/raiting";
+
 function parseIngredientsParams(ingredients?: string | Object): Array<string> {
   if (!ingredients) {
     return [""]

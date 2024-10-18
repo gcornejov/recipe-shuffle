@@ -1,7 +1,7 @@
 import { db } from "@vercel/postgres";
 import { NextResponse } from "next/server";
 
-export async function GET(request: Request) {
+export async function GET(_: Request) {
     /*
     DROP TABLE IF EXISTS recipes_ingredients;
     DROP TABLE IF EXISTS recipes;
@@ -70,7 +70,12 @@ export async function GET(request: Request) {
                 difficulty difficulty_level,
                 raiting NUMERIC(2,1),
                 description VARCHAR,
-                steps VARCHAR
+                steps VARCHAR,
+                calories NUMERIC(6,2),
+                carbohydrates NUMERIC(6,2),
+                protein NUMERIC(6,2),
+                fats NUMERIC(6,2),
+                servings INTEGER
             );
         `;
         console.log(recipes_result);

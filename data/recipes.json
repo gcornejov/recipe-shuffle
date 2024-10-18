@@ -49,6 +49,13 @@
             }
         ],
         "steps": "--Sift the dry ingredients together.--Make a well, then add the wet ingredients. Stir to combine.--Scoop the batter onto a hot griddle or pan.--Cook for two to three minutes, then flip.--Continue cooking until brown on both sides.",
+        "macros": {
+            "calories": 158,
+            "fats": 6,
+            "carbohydrates": 22,
+            "protein": 5
+        },
+        "servings": 8,
         "id": "63680042-a683-4028-99e3-95dc3347d562"
     },
     {
@@ -95,6 +102,13 @@
             }
         ],
         "steps": "--Mash avocados, lime juice, and salt together in a medium bowl; mix in tomatoes, onion, cilantro, and garlic.--Stir in cayenne pepper. Serve immediately, or cover and refrigerate for 1 hour for improved flavor.",
+        "macros": {
+            "calories": 0,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "servings": 0,
         "id": "3276dc37-a940-4c56-a356-2629872a1589"
     },
     {
@@ -135,6 +149,13 @@
             }
         ],
         "steps": "",
+        "macros": {
+            "calories": 0,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "servings": 0,
         "id": "7681cc26-943b-460f-a929-b76b646ffd48"
     },
     {
@@ -175,6 +196,13 @@
             }
         ],
         "steps": "",
+        "macros": {
+            "calories": 0,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "servings": 0,
         "id": "6c7c1a77-6500-463b-98da-dfdee3a03b52"
     },
     {
@@ -215,6 +243,13 @@
             }
         ],
         "steps": "",
+        "macros": {
+            "calories": 0,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "servings": 0,
         "id": "8a787190-31ca-4709-bb0d-7cce588b2928"
     },
     {
@@ -255,6 +290,13 @@
             }
         ],
         "steps": "",
+        "macros": {
+            "calories": 0,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "servings": 0,
         "id": "1d895949-6216-4b0a-ac09-5951d3110c6a"
     },
     {
@@ -295,6 +337,13 @@
             }
         ],
         "steps": "",
+        "macros": {
+            "calories": 0,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "servings": 0,
         "id": "5b3d8658-aa88-4e46-821d-2490aee51eb1"
     },
     {
@@ -329,6 +378,13 @@
             }
         ],
         "steps": "",
+        "macros": {
+            "calories": 0,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "servings": 0,
         "id": "5910ddaf-8562-4651-87f3-19ea1be7d8ea"
     },
     {
@@ -369,6 +425,13 @@
             }
         ],
         "steps": "",
+        "macros": {
+            "calories": 0,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "servings": 0,
         "id": "bad486a2-238e-43dd-a40c-6970efff9c40"
     }
 ]

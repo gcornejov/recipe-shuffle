@@ -16,8 +16,8 @@ export function StarRaiting({raiting, maxRaiting}: {raiting: number, maxRaiting?
     <>
       <div className="flex">
         {stars}
+        <div className="inline-block align-middle ml-1 text-lg">{raiting}</div>
       </div>
-      <div className="inline-block align-middle ml-1 text-lg">{raiting}</div>
     </>
   );
 }
