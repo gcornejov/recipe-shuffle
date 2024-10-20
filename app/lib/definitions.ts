@@ -1,17 +1,17 @@
+export type WholeUnit = 'unit' | 'head' | 'clove';
 export type MeasureUnit = 'unit' | 'head' | 'clove' | 'cup' | 'tbsp' | 'tsp' | 'mg' | 'g' | 'ml' | 'L';
 export type DifficultyLevel = "easy" | "medium" | "hard";
 
 export type NutritionalValue = {
     calories: number,
     carbohydrates: number,
-    proteins: number,
+    protein: number,
     fats: number,
 };
 
 export type Ingredient = NutritionalValue & {
     id: string,
     name: string,
-    unit_type: MeasureUnit,
 };
 
 export type Recipe = NutritionalValue & {
@@ -24,8 +24,8 @@ export type Recipe = NutritionalValue & {
     servings: number,
 };
 
-export type RecipeBriefing = Omit<Recipe, "description" | "steps" | "carbohydrates" | "proteins" | "fats">
+export type RecipeBriefing = Omit<Recipe, "description" | "steps" | "carbohydrates" | "protein" | "fats">
 
-export type IngredientWithQuantity = Ingredient & { quantity: number };
+export type IngredientWithQuantity = Ingredient & { unit_type: MeasureUnit, quantity: number };
 
 export type RecipeWithIngredients = Recipe & { ingredients?: Array<IngredientWithQuantity> };
