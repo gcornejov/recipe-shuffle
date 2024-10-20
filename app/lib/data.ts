@@ -45,24 +45,28 @@ export async function getRecipesByIngredients(ingredients: Array<string>): Promi
 }
 
 export async function getFullRecipe(recipeId: string) {
-    const queryRecipe = sql<Recipe>`SELECT * FROM recipes WHERE id = ${recipeId};`;
+    const queryRecipe = sql<Recipe>`
+        SELECT
+            id,
+            name,
+            difficulty,
+            raiting,
+            description,
+            steps,
+            TRUNC(calories) calories,
+            TRUNC(carbohydrates) carbohydrates,
+            TRUNC(protein) protein,
+            TRUNC(fats) fats,
+            servings
+        FROM recipes 
+        WHERE id = ${recipeId};
+    `;
 
     const queryRecipeIngredients = sql<IngredientWithQuantity>`
         SELECT 
             i.*,
-            ri.quantity quantity
-        FROM recipes r
-        INNER JOIN recipes_ingredients ri ON r.id = ri.recipe_id
-        INNER JOIN ingredients i ON i.id = ri.ingredient_id
-        WHERE r.id = ${recipeId};
-    `;
-
-    const queryRecipeNutritionalAgg = sql<NutritionalValue>`
-        SELECT
-            ROUND(SUM(i.calories * ri.quantity)) calories,
-            ROUND(SUM(i.carbohydrates * ri.quantity)) carbohydrates,
-            ROUND(SUM(i.protein * ri.quantity)) proteins,
-            ROUND(SUM(i.fats * ri.quantity)) fats
+            ri.unit_type,
+            ri.quantity
         FROM recipes r
         INNER JOIN recipes_ingredients ri ON r.id = ri.recipe_id
         INNER JOIN ingredients i ON i.id = ri.ingredient_id
@@ -72,12 +76,10 @@ export async function getFullRecipe(recipeId: string) {
     const data = await Promise.all([
         queryRecipe,
         queryRecipeIngredients,
-        queryRecipeNutritionalAgg
     ]);
 
     return {
         recipe: data[0].rows[0],
         recipeIngredients: data[1].rows,
-        recipeNutritionalAgg: data[2].rows[0],
     };
 }
