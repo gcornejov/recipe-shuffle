@@ -1,4 +1,5 @@
-import { SearchBarAutosuggest, SearchTags, RecipeCard } from "@/app/ui/search";
+import { SearchBarAutosuggest, SearchTags } from "@/app/ui/search";
+import { RecipeCard } from "@/app/ui/recipe";
 import { getRecipesByIngredients } from "@/app/lib/data";
 import { RecipeBriefing } from "@/app/lib/definitions";
 
