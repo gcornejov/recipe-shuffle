@@ -18,5 +18,6 @@
     "typescript.preferences.importModuleSpecifier": "non-relative",
     "javascript.preferences.importModuleSpecifier": "non-relative",
     "remote.localPortHost": "allInterfaces",
-    "npm.packageManager": "pnpm"
+    "npm.packageManager": "pnpm",
+    "terminal.integrated.scrollback": 100000
 }
