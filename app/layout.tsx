@@ -17,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-[1300px] m-auto shadow-2xl">{children}</div>
+        <div className="bg-pattern-bubbles m-auto min-h-screen w-[1280px] shadow-2xl">
+          {children}
+        </div>
       </body>
     </html>
   );
