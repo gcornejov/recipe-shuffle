@@ -5,7 +5,7 @@ import { RecipeBriefing } from "@/app/lib/definitions";
 
 function parseIngredientsParams(ingredients?: string | Object): Array<string> {
   if (!ingredients) {
-    return [""]
+    return [""];
   }
 
   return typeof ingredients === "string" ? [ingredients] : Object.values(ingredients);
