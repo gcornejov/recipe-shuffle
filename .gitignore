@@ -143,3 +143,6 @@ dist
 
 #python
 .venv
+
+# storage
+imgs

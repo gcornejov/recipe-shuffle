@@ -33,7 +33,8 @@ export async function getRecipesByIngredients(ingredients: Array<string>): Promi
             r.difficulty, 
             r.raiting, 
             TRUNC(r.calories, 0) calories, 
-            r.servings
+            r.servings,
+            r.image_url
         FROM recipes r
         INNER JOIN recipes_ingredients ri ON r.id = ri.recipe_id
         INNER JOIN ingredients i ON i.id = ri.ingredient_id
@@ -57,7 +58,8 @@ export async function getFullRecipe(recipeId: string) {
             TRUNC(carbohydrates) carbohydrates,
             TRUNC(protein) protein,
             TRUNC(fats) fats,
-            servings
+            servings,
+            image_url
         FROM recipes 
         WHERE id = ${recipeId};
     `;

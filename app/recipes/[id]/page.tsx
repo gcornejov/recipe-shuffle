@@ -4,6 +4,7 @@ import { formatFractions } from "@/app/lib/utils";
 import { StarRaiting } from "@/app/ui/recipe";
 import { FoodPlateIcon, FireIcon } from "@/app/ui/svg_icons";
 import { CircularProgress, MiniGauge } from "@/app/ui/widgets";
+import Image from "next/image";
 
 export default async function Page({ params }: { params: { id: string } }) {
   const { recipe, recipeIngredients } = await getFullRecipe(params.id);
@@ -11,9 +12,11 @@ export default async function Page({ params }: { params: { id: string } }) {
   return (
     <>
       <div className="relative flex bg-gradient-to-b from-orange-200 to-orange-100 p-4">
-        <img
+        <Image
           className="mr-4 flex-col"
-          src="https://placehold.co/300"
+          src={recipe.image_url || "https://placehold.co/300"}
+          width={300}
+          height={300}
           alt={recipe.name}
         />
 

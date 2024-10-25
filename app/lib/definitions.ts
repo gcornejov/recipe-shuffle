@@ -22,6 +22,7 @@ export type Recipe = NutritionalValue & {
     description: string,
     steps: string,
     servings: number,
+    image_url: string,
 };
 
 export type RecipeBriefing = Omit<Recipe, "description" | "steps" | "carbohydrates" | "protein" | "fats">

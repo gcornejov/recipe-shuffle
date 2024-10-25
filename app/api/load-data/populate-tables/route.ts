@@ -38,6 +38,7 @@ type Recipe = {
     macros: Macros,
     servings: number,
     steps: string,
+    image_url: string,
 }
 
 export async function GET(_: Request) {
@@ -75,7 +76,7 @@ export async function GET(_: Request) {
         const insert_recipes_response = await Promise.all(
             recipes.map(
                 (recipe: Recipe) => client.sql`
-                    INSERT INTO recipes VALUES (${recipe.id}, ${recipe.name}, ${recipe.difficulty}, ${recipe.raiting}, ${recipe.description}, ${recipe.steps}, ${recipe.macros.calories}, ${recipe.macros.carbohydrates}, ${recipe.macros.protein}, ${recipe.macros.fats}, ${recipe.servings});
+                    INSERT INTO recipes VALUES (${recipe.id}, ${recipe.name}, ${recipe.difficulty}, ${recipe.raiting}, ${recipe.description}, ${recipe.steps}, ${recipe.macros.calories}, ${recipe.macros.carbohydrates}, ${recipe.macros.protein}, ${recipe.macros.fats}, ${recipe.servings}, ${recipe.image_url});
                 `,
             )
         );
