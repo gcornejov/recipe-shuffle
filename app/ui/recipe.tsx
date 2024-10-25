@@ -1,6 +1,7 @@
 import { RecipeBriefing } from "@/app/lib/definitions";
 import { StarIcon, FoodPlateIcon, FireIcon } from "@/app/ui/svg_icons";
 import { pascalCase } from "@/app/lib/utils";
+import Image from "next/image";
 
 const STARS_QUANTITY: number = 5;
 
@@ -35,9 +36,11 @@ export function RecipeCard({ recipe }: { recipe: RecipeBriefing }) {
   return (
     <div className="w-96 place-self-center rounded-lg border-2 border-gray-400 bg-gray-200 p-2 shadow-lg duration-200 ease-in hover:scale-110">
       <a href={`/recipes/${recipe.id}`} className="flex">
-        <img
+        <Image
           className="mr-4 flex-col"
-          src="https://placehold.co/150"
+          src={recipe.image_url || "https://placehold.co/150"}
+          width={150}
+          height={150}
           alt={`${recipe.name} Thumbnail`}
         />
         <div className="relative w-full">

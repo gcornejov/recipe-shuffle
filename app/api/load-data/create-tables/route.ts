@@ -75,7 +75,8 @@ export async function GET(_: Request) {
                 carbohydrates NUMERIC(6,2),
                 protein NUMERIC(6,2),
                 fats NUMERIC(6,2),
-                servings INTEGER
+                servings INTEGER,
+                image_url VARCHAR
             );
         `;
         console.log(recipes_result);
