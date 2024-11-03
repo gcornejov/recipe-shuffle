@@ -38,10 +38,11 @@ export function RecipeCard({ recipe }: { recipe: RecipeBriefing }) {
       <a href={`/recipes/${recipe.id}`} className="flex">
         <Image
           className="mr-4 flex-col"
-          src={recipe.image_url || "https://placehold.co/150"}
+          src={`${process.env.STATIC_IMAGES_BASE_URL}/thumbnail/${recipe.image_url}` || "https://placehold.co/300"}
           width={150}
           height={150}
           alt={`${recipe.name} Thumbnail`}
+          loading="eager"
         />
         <div className="relative w-full">
           <div className="text-lg">{recipe.name}</div>

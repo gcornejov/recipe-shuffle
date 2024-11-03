@@ -14,10 +14,11 @@ export default async function Page({ params }: { params: { id: string } }) {
       <div className="relative flex bg-gradient-to-b from-orange-200 to-orange-100 p-4">
         <Image
           className="mr-4 flex-col"
-          src={recipe.image_url || "https://placehold.co/300"}
+          src={`${process.env.STATIC_IMAGES_BASE_URL}/desktop/${recipe.image_url}` || "https://placehold.co/300"}
           width={300}
           height={300}
           alt={recipe.name}
+          loading="eager"
         />
 
         <div className="absolute right-4">
