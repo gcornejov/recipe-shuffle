@@ -20,11 +20,18 @@ export async function GET(_: Request) {
                 'unit',
                 'head',
                 'clove',
+                'stalk',
+                'leaf',
+                'slice',
+                'fillet',
+                'package',
+                'can',
                 'cup',
                 'tbsp',
                 'tsp',
                 'mg',
                 'g',
+                'Kg',
                 'ml',
                 'L'
             );
@@ -94,7 +101,7 @@ export async function GET(_: Request) {
         `;
         console.log(recipes_ingredients_result);
 
-        await client.sql`COMMIT`;
+        // await client.sql`COMMIT`;
 
         return NextResponse.json(
             {
