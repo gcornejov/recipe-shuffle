@@ -50,7 +50,7 @@
         ],
         "steps": "1. Sift the dry ingredients together.\n\n2. Make a well, then add the wet ingredients. Stir to combine.\n\n3. Scoop the batter onto a hot griddle or pan.\n\n4. Cook for two to three minutes, then flip.\n\n5. Continue cooking until brown on both sides.",
         "macros": {
-            "calories": 158,
+            "calories": 162,
             "fats": 6,
             "carbohydrates": 22,
             "protein": 5
@@ -68,26 +68,32 @@
             {
                 "id": "cc6bbb39-6f0c-4753-ae80-2489971eafe9",
                 "ingredient_id": "5326df96-e2cc-4969-b28c-d3950fabb27f",
-                "unit_type": "g",
+                "unit_type": "unit",
                 "quantity": 3
             },
             {
                 "id": "f8aa5512-0d55-4738-8927-56fa37b28b64",
                 "ingredient_id": "24946b0c-5066-4ba6-9059-71e7b6dca70c",
-                "unit_type": "g",
+                "unit_type": "unit",
+                "quantity": 1
+            },
+            {
+                "id": "d164b590-c35b-466d-a464-1b245464a4da",
+                "ingredient_id": "335c2a6f-8d8f-41d8-9762-2a386e4c1fb9",
+                "unit_type": "tsp",
                 "quantity": 1
             },
             {
                 "id": "69bcac2a-980b-4b23-b3d0-ba9a4efdba16",
                 "ingredient_id": "fc099eeb-a40f-4b91-96ff-6d8f77b94ac7",
-                "unit_type": "g",
+                "unit_type": "unit",
                 "quantity": 2
             },
             {
                 "id": "4de02f27-c387-4866-be84-7d305ad5a9ff",
                 "ingredient_id": "5af4a8ec-2799-4a1d-9aa8-957764dd1a69",
-                "unit_type": "g",
-                "quantity": 0.25
+                "unit_type": "cup",
+                "quantity": 0.5
             },
             {
                 "id": "84e59e7b-18c5-4d63-803f-d6e46a000f22",
@@ -104,60 +110,126 @@
         ],
         "steps": "1. Mash avocados, lime juice, and salt together in a medium bowl; mix in tomatoes, onion, cilantro, and garlic.\n\n2. Stir in cayenne pepper. Serve immediately, or cover and refrigerate for 1 hour for improved flavor.",
         "macros": {
-            "calories": 0,
-            "fats": 0,
-            "carbohydrates": 0,
-            "protein": 0
+            "calories": 286,
+            "fats": 22,
+            "carbohydrates": 18,
+            "protein": 4
         },
-        "servings": 0,
+        "servings": 4,
         "image_url": "guacamole.webp",
         "id": "3276dc37-a940-4c56-a356-2629872a1589"
     },
     {
         "name": "Spaghetti Bolognese",
         "difficulty": "easy",
-        "raiting": 2.5,
-        "description": "",
+        "raiting": 4.6,
+        "description": "Mom's spaghetti Bolognese recipe was passed on from my Italian grandfather. The ultimate comfort food. Leftovers freeze nicely! To make this recipe more authentic, you can use a mixture of ground veal, pork, and beef. You can also substitute 1/2 cup of red wine for the balsamic vinegar.",
         "ingredients": [
             {
                 "id": "c398e72d-e63f-4bc4-a6b4-8cee486dc608",
                 "ingredient_id": "a1f606d9-49b1-4292-aa9f-95b0e0c7730d",
-                "unit_type": "g",
-                "quantity": 200
-            },
-            {
-                "id": "09215b00-8da9-46ad-ab87-a6fffae6bb83",
-                "ingredient_id": "2ae2f24d-d79d-4d64-9cf3-80fa6ef465eb",
-                "unit_type": "g",
-                "quantity": 400
-            },
-            {
-                "id": "1880a7f5-f7c5-4eb0-8ba1-5a0f01a17d3b",
-                "ingredient_id": "4a049240-db40-413a-aa8c-fdbb0e68615e",
-                "unit_type": "g",
+                "unit_type": "package",
                 "quantity": 1
             },
             {
                 "id": "cc13c9a9-32ee-4dbd-ab3c-74de7fc8a2e8",
                 "ingredient_id": "ece69701-cc55-461f-a180-3a66f10ee8eb",
-                "unit_type": "g",
+                "unit_type": "tbsp",
                 "quantity": 2
             },
             {
-                "id": "e186c7a1-6866-41ce-9e90-3106f0f0d004",
-                "ingredient_id": "cf7a7512-9e3f-41c2-89da-ad3c82816b6c",
+                "id": "96116d41-0e2c-4177-9ff0-944f7b822c8a",
+                "ingredient_id": "a7f2e03f-081d-4fb8-ad42-0171e807138d",
+                "unit_type": "slice",
+                "quantity": 3
+            },
+            {
+                "id": "a953d4cd-70c2-46c5-8b9f-35af985a24d2",
+                "ingredient_id": "5af4a8ec-2799-4a1d-9aa8-957764dd1a69",
+                "unit_type": "unit",
+                "quantity": 1
+            },
+            {
+                "id": "c325eb71-23f6-433d-a9fd-a1df9f4de71b",
+                "ingredient_id": "117ba4e1-8756-4fe3-9d21-6e3a6c7720e7",
+                "unit_type": "stalk",
+                "quantity": 1
+            },
+            {
+                "id": "1880a7f5-f7c5-4eb0-8ba1-5a0f01a17d3b",
+                "ingredient_id": "4a049240-db40-413a-aa8c-fdbb0e68615e",
+                "unit_type": "unit",
+                "quantity": 1
+            },
+            {
+                "id": "7c8cde14-a9ef-4ce6-9f50-8b567f1265e0",
+                "ingredient_id": "7c8cde14-a9ef-4ce6-9f50-8b567f1265e0",
+                "unit_type": "tsp",
+                "quantity": 1
+            },
+            {
+                "id": "23dc5245-0f85-4808-9152-a883a196113b",
+                "ingredient_id": "c1665258-ceae-449c-88c8-392eb5bdf59f",
+                "unit_type": "clove",
+                "quantity": 3
+            },
+            {
+                "id": "09215b00-8da9-46ad-ab87-a6fffae6bb83",
+                "ingredient_id": "2ae2f24d-d79d-4d64-9cf3-80fa6ef465eb",
                 "unit_type": "g",
-                "quantity": 100
+                "quantity": 450
+            },
+            {
+                "id": "8e690405-477f-464d-9f8f-966e32dbd2e5",
+                "ingredient_id": "e28f9a89-b467-45f4-86de-2297f9e64e26",
+                "unit_type": "tbsp",
+                "quantity": 2
+            },
+            {
+                "id": "16f96d49-f034-412e-a49a-800dfe6b7120",
+                "ingredient_id": "f71d1278-60f0-4f6e-9f75-dddd0d9d5039",
+                "unit_type": "can",
+                "quantity": 2
+            },
+            {
+                "id": "4ef445ea-34e6-46d4-b1fc-890d5820f678",
+                "ingredient_id": "a7c9ca3d-be41-49da-a8db-c288ceb166b1",
+                "unit_type": "tbsp",
+                "quantity": 2
+            },
+            {
+                "id": "03f55802-b8b4-4f63-84ff-dbb4796dbdc1",
+                "ingredient_id": "485a10d8-7f43-4dcd-ac2e-54f6632d353d",
+                "unit_type": "tbsp",
+                "quantity": 2
+            },
+            {
+                "id": "da793c18-4ad1-4e82-8627-6351af121226",
+                "ingredient_id": "335c2a6f-8d8f-41d8-9762-2a386e4c1fb9",
+                "unit_type": "tsp",
+                "quantity": 2
+            },
+            {
+                "id": "c3e8887c-5c0e-4316-9635-3b886cb5da11",
+                "ingredient_id": "c812e65e-c081-4294-a241-0602520bae58",
+                "unit_type": "tbsp",
+                "quantity": 2
+            },
+            {
+                "id": "a2910013-d1e0-400f-84d7-b5002c96d266",
+                "ingredient_id": "4cbbd154-6a10-4cc3-ac64-5274cb82335b",
+                "unit_type": "cup",
+                "quantity": 0.25
             }
         ],
-        "steps": "",
+        "steps": "Fill a large pot with lightly salted water and bring to a rolling boil. Stir in spaghetti and return to a boil. Cook spaghetti uncovered, stirring occasionally, until tender yet firm to the bite, about 12 minutes; drain.\n\nHeat olive oil in a large pot over medium heat; add bacon. Cook, turning occasionally, until crisp, 8 to 10 minutes. Add onion, celery, carrot, and oregano to bacon; continue cooking until vegetables begin to soften, 8 to 10 minutes. Add garlic; cook until fragrant, about 2 minutes. Crumble in ground beef; cook and stir until no longer pink and completely cooked, 8 to 10 minutes.\n\nPour vinegar over ground beef mixture; simmer until liquid evaporates, about 5 minutes. Stir in crushed tomatoes, tomato paste, and sugar; bring to a boil, season with salt and black pepper, then remove from heat. Stir in basil.\n\nSpoon sauce over spaghetti; top with Parmesan cheese to serve.",
         "macros": {
-            "calories": 0,
-            "fats": 0,
-            "carbohydrates": 0,
-            "protein": 0
+            "calories": 462,
+            "fats": 14,
+            "carbohydrates": 60,
+            "protein": 24
         },
-        "servings": 0,
+        "servings": 8,
         "image_url": "spaghetti-bolognese.webp",
         "id": "7681cc26-943b-460f-a929-b76b646ffd48"
     },
@@ -165,103 +237,187 @@
         "name": "Caesar Salad",
         "difficulty": "easy",
         "raiting": 2.5,
-        "description": "",
+        "description": "This Caesar salad is the same recipe we made at a very fancy restaurant while I was in college. The best part of the job was making tableside dishes, including this Caesar salad which is the best I've ever had.",
         "ingredients": [
+            {
+                "id": "16bfb82b-67a0-4252-b72e-543a6f9000a3",
+                "ingredient_id": "631dea13-2a99-43d4-b9c0-ba7c719c2fcd",
+                "unit_type": "fillet",
+                "quantity": 3
+            },
+            {
+                "id": "b28be97c-da91-4c66-9829-000e5d1dc80a",
+                "ingredient_id": "c1665258-ceae-449c-88c8-392eb5bdf59f",
+                "unit_type": "clove",
+                "quantity": 2
+            },
+            {
+                "id": "79e7e96f-987b-4301-8227-9ae91eb454d4",
+                "ingredient_id": "ac6bf19a-d5d7-4a23-a2a6-e1f69a175701",
+                "unit_type": "tbsp",
+                "quantity": 1.5
+            },
+            {
+                "id": "44297479-d931-403a-8f7f-7538437d60d1",
+                "ingredient_id": "1df6f047-bde0-4ef0-b26f-7a9e305b416f",
+                "unit_type": "tbsp",
+                "quantity": 2
+            },
+            {
+                "id": "2761f51a-725c-4699-af20-446589c2dab8",
+                "ingredient_id": "9f7f9160-c7b7-465b-89fd-38b7690462dd",
+                "unit_type": "unit",
+                "quantity": 1
+            },
+            {
+                "id": "f7eb49e5-429d-4405-acc8-51aaddd0fa89",
+                "ingredient_id": "4e7b9732-f3f8-4328-adf5-6f3f8065024a",
+                "unit_type": "tbsp",
+                "quantity": 1
+            },
+            {
+                "id": "bae96715-36bb-4a03-afde-7b20056b572c",
+                "ingredient_id": "ece69701-cc55-461f-a180-3a66f10ee8eb",
+                "unit_type": "tbsp",
+                "quantity": 1
+            },
+            {
+                "id": "aaf30a74-cc68-4c8c-a1fd-de52eea6f1fa",
+                "ingredient_id": "335c2a6f-8d8f-41d8-9762-2a386e4c1fb9",
+                "unit_type": "tsp",
+                "quantity": 1
+            },
             {
                 "id": "33480213-8342-4cd1-89bc-744e83067c90",
                 "ingredient_id": "fcb674dc-1c9f-4c9e-8849-14eb2578235f",
-                "unit_type": "g",
-                "quantity": 1
+                "unit_type": "head",
+                "quantity": 0.5
             },
             {
                 "id": "61c1118c-628e-47b1-a2ff-9853cc18fbf8",
                 "ingredient_id": "4cbbd154-6a10-4cc3-ac64-5274cb82335b",
-                "unit_type": "g",
-                "quantity": 100
+                "unit_type": "cup",
+                "quantity": 0.25
             },
             {
                 "id": "43635196-3299-40ed-9a52-1fc274a50f27",
                 "ingredient_id": "848f1930-7651-4158-b5a6-1845d55ed5ff",
-                "unit_type": "g",
-                "quantity": 50
-            },
-            {
-                "id": "af45ec92-7107-4c5d-95b4-911b7591481b",
-                "ingredient_id": "7ff1e81e-3f80-4dde-a9be-1a68f5dffa95",
-                "unit_type": "g",
+                "unit_type": "tbsp",
                 "quantity": 2
-            },
-            {
-                "id": "340be9ba-6d39-4f23-b70d-a83e639c9cfc",
-                "ingredient_id": "5388ca1c-a592-4cc4-ac61-febf9b63ce8b",
-                "unit_type": "g",
-                "quantity": 0.25
             }
         ],
-        "steps": "",
+        "steps": "Gather all ingredients.\n\nTo make the dressing: Mash anchovy fillets and garlic in a large salad bowl. Add lemon juice, red wine vinegar, Dijon mustard, egg yolk, and Worcestershire sauce; whisk until smooth and creamy. Gradually stream in olive oil while whisking constantly. Season with salt and black pepper.\n\nMake salad: Gently mix romaine lettuce and Parmesan cheese into dressing until thoroughly coated.\n\nServe salad topped with croutons.",
         "macros": {
-            "calories": 0,
-            "fats": 0,
-            "carbohydrates": 0,
-            "protein": 0
+            "calories": 369,
+            "fats": 33,
+            "carbohydrates": 10,
+            "protein": 8
         },
-        "servings": 0,
+        "servings": 2,
         "image_url": "caesar-salad.webp",
         "id": "6c7c1a77-6500-463b-98da-dfdee3a03b52"
     },
     {
         "name": "Chicken Curry",
-        "difficulty": "easy",
-        "raiting": 2.5,
-        "description": "",
+        "difficulty": "medium",
+        "raiting": 4.3,
+        "description": "This Indian-inspired creamy chicken curry recipe is similar to a curry I had in India. The aromatic spices and flavors are a delight to the senses! Delicious with fresh naan and basmati rice.",
         "ingredients": [
             {
-                "id": "13a0d91c-5917-4b41-93a9-b01a41fe73ed",
-                "ingredient_id": "73a432dd-3992-47c7-b63c-426a15a78d8d",
+                "id": "f7b57de2-945d-4005-82e7-f53973076470",
+                "ingredient_id": "5388ca1c-a592-4cc4-ac61-febf9b63ce8b",
                 "unit_type": "g",
                 "quantity": 500
             },
             {
+                "id": "13a0d91c-5917-4b41-93a9-b01a41fe73ed",
+                "ingredient_id": "73a432dd-3992-47c7-b63c-426a15a78d8d",
+                "unit_type": "cup",
+                "quantity": 1
+            },
+            {
                 "id": "fe485638-b59c-49dc-9256-7a3aac43e532",
                 "ingredient_id": "b7fb8c82-c016-4bf2-8cf9-505f093fb732",
-                "unit_type": "g",
+                "unit_type": "ml",
                 "quantity": 200
             },
             {
                 "id": "8e19b1a9-d06c-4507-a972-7b00589ea08e",
                 "ingredient_id": "c1665258-ceae-449c-88c8-392eb5bdf59f",
-                "unit_type": "g",
+                "unit_type": "clove",
                 "quantity": 2
-            },
-            {
-                "id": "bb6f06df-eb25-4ba5-8595-323e2b099c95",
-                "ingredient_id": "90ebce03-f71d-4e3f-93ff-e930a9683a80",
-                "unit_type": "g",
-                "quantity": 1
-            },
-            {
-                "id": "2e768cf6-a89d-4773-b2d1-3474bb348619",
-                "ingredient_id": "b3292a27-304c-4da2-b5b2-dcd545f9aad4",
-                "unit_type": "g",
-                "quantity": 1
             }
         ],
-        "steps": "",
+        "steps": "Heat olive oil in a skillet over medium heat. Sauté onion until lightly browned.\n\nStir in garlic, curry powder, cinnamon, paprika, bay leaf, ginger, sugar, and salt. Continue stirring for 2 minutes.\n\nAdd chicken pieces, tomato paste, yogurt, and coconut milk. Bring to a boil, reduce heat, and simmer for 20 to 25 minutes.\n\nRemove bay leaf, and stir in lemon juice and cayenne pepper. Simmer 5 more minutes.\n\nServe hot and enjoy!",
         "macros": {
-            "calories": 0,
-            "fats": 0,
-            "carbohydrates": 0,
-            "protein": 0
+            "calories": 330,
+            "fats": 22,
+            "carbohydrates": 14,
+            "protein": 19
         },
-        "servings": 0,
+        "servings": 4,
         "image_url": "chicken-curry.webp",
         "id": "8a787190-31ca-4709-bb0d-7cce588b2928"
     },
     {
         "name": "Vegetable Stir Fry",
         "difficulty": "easy",
-        "raiting": 2.5,
-        "description": "",
+        "raiting": 4.7,
+        "description": "This stir-fry with frozen vegetables makes a very quick and tasty vegetable side dish. Soy sauce and peanut butter add a nice Thai-style flavor.",
+        "ingredients": [
+            {
+                "id": "bfc891bc-14f1-404e-a622-51502d7ad8e9",
+                "ingredient_id": "4a6a607b-8a88-4c58-83e2-0ea0049f0c26",
+                "unit_type": "unit",
+                "quantity": 2
+            },
+            {
+                "id": "dbc3c67e-db89-4a1b-8265-97f50aaef536",
+                "ingredient_id": "67a34802-41a2-46f7-8cf4-c38b509a9ac2",
+                "unit_type": "head",
+                "quantity": 0.5
+            },
+            {
+                "id": "fea09dfd-93a0-474e-9eb2-d801c1cdb111",
+                "ingredient_id": "b991fa7e-d622-44ca-8157-f26c99d5260f",
+                "unit_type": "g",
+                "quantity": 200
+            },
+            {
+                "id": "5c8f26e8-7197-4cd2-9d84-8cecba56f2de",
+                "ingredient_id": "98495ebf-f2dd-41e2-ac04-8f2dce5b2121",
+                "unit_type": "g",
+                "quantity": 200
+            },
+            {
+                "id": "bb6f06df-eb25-4ba5-8595-323e2b099c95",
+                "ingredient_id": "90ebce03-f71d-4e3f-93ff-e930a9683a80",
+                "unit_type": "head",
+                "quantity": 1
+            },
+            {
+                "id": "837774d3-487a-45a4-bb42-1826041914f9",
+                "ingredient_id": "fed39ccd-14e3-4ecf-b9da-0538cae61545",
+                "unit_type": "g",
+                "quantity": 50
+            }
+        ],
+        "steps": "Combine soy sauce, brown sugar, peanut butter, and garlic powder in a small bowl.\n\nHeat oil in a large skillet over medium heat. Add frozen mixed vegetables; cook and stir until just tender, 5 to 7 minutes.\n\nRemove from heat and fold in soy sauce mixture.",
+        "macros": {
+            "calories": 96,
+            "fats": 3,
+            "carbohydrates": 14,
+            "protein": 4
+        },
+        "servings": 6,
+        "image_url": "vegetable-stir-fry.webp",
+        "id": "1d895949-6216-4b0a-ac09-5951d3110c6a"
+    },
+    {
+        "name": "Fish Tacos",
+        "difficulty": "hard",
+        "raiting": 4.8,
+        "description": "These crispy fish tacos with shredded cabbage and a spicy homemade white sauce are just delicious! Serve with homemade pico de gallo and lime wedges to squeeze on top.",
         "ingredients": [
             {
                 "id": "e3ed1f9d-93b0-454c-a239-56c166be2e61",
@@ -272,174 +428,121 @@
             {
                 "id": "a629fd89-bf6a-487f-8428-91af31c92bfd",
                 "ingredient_id": "908645dc-a7c0-49ab-8133-4fcecc53def0",
-                "unit_type": "g",
+                "unit_type": "unit",
                 "quantity": 2
             },
             {
                 "id": "0e820c3e-2865-490e-bad3-43a4146ae2ac",
                 "ingredient_id": "35b0a97e-52ff-46ce-83ca-b80d058b6321",
-                "unit_type": "g",
+                "unit_type": "can",
                 "quantity": 1
             },
             {
-                "id": "d62a636c-9728-4d0f-bb14-a939e00f7715",
-                "ingredient_id": "4f733d9c-a2dc-4001-b678-6d7630915652",
-                "unit_type": "g",
-                "quantity": 100
+                "id": "ed55d961-84f8-479a-b75c-acbe474fe100",
+                "ingredient_id": "7521fbbb-0f99-4f1c-86f8-10b1598740c4",
+                "unit_type": "tbsp",
+                "quantity": 2
             },
             {
-                "id": "508ff3f1-62ab-41e6-a763-70afad3edbb2",
-                "ingredient_id": "4ba85f8f-9223-4a47-915e-ac08a74087a4",
-                "unit_type": "g",
+                "id": "8be3869b-ef70-4df8-a964-38b644d13998",
+                "ingredient_id": "5ae407bc-a581-4d15-9d4c-5a3d0aa70c52",
+                "unit_type": "tsp",
                 "quantity": 1
             }
         ],
-        "steps": "",
+        "steps": "Make beer batter: Combine flour, cornstarch, baking powder, and salt in a large bowl. Blend beer and egg in a separate bowl, then quickly stir into flour mixture until combined with a few lumps remaining.\n\nMake white sauce: Mix together yogurt and mayonnaise in a medium bowl. Gradually stir in fresh lime juice until consistency is slightly runny. Season with jalapeño, capers, cayenne, oregano, cumin, and dill.\n\nStart fish tacos: Heat oil in a deep-fryer to 375 degrees F (190 degrees C).\n\nDust fish pieces lightly with flour. Set aside.\n\nDip floured fish pieces into beer batter. Set aside.\n\nFry in hot oil until crisp and golden brown. Drain on paper towels. Lightly fry tortillas in hot oil until just crisped, but not too crisp. Drain on paper towels.\n\nPlace fried fish in tortillas; top with shredded cabbage and white sauce.",
         "macros": {
-            "calories": 0,
-            "fats": 0,
-            "carbohydrates": 0,
-            "protein": 0
+            "calories": 411,
+            "fats": 19,
+            "carbohydrates": 43,
+            "protein": 17
         },
-        "servings": 0,
-        "image_url": "vegetable-stir-fry.webp",
-        "id": "1d895949-6216-4b0a-ac09-5951d3110c6a"
-    },
-    {
-        "name": "Fish Tacos",
-        "difficulty": "easy",
-        "raiting": 2.5,
-        "description": "",
-        "ingredients": [
-            {
-                "id": "0644ae84-8176-4830-af43-211d81f25e67",
-                "ingredient_id": "d98ea964-5cd1-47b1-aa61-fc271ee41144",
-                "unit_type": "g",
-                "quantity": 300
-            },
-            {
-                "id": "53656d17-42b7-4bf6-9b82-df68ccec3049",
-                "ingredient_id": "b7924fe7-9889-4294-a270-156e049569cc",
-                "unit_type": "g",
-                "quantity": 6
-            },
-            {
-                "id": "30ed8d05-da1d-4cae-ad33-232ec78da2d2",
-                "ingredient_id": "fed39ccd-14e3-4ecf-b9da-0538cae61545",
-                "unit_type": "g",
-                "quantity": 1
-            },
-            {
-                "id": "5ad032db-72d9-4c29-8f08-3856d2b81242",
-                "ingredient_id": "15bf1846-58c3-4d77-8964-127aa51fe4f2",
-                "unit_type": "g",
-                "quantity": 1
-            },
-            {
-                "id": "f649ef56-823c-42f1-aebe-5dab900b766e",
-                "ingredient_id": "72a2ec87-9738-435b-b48f-1c46db32c382",
-                "unit_type": "g",
-                "quantity": 100
-            }
-        ],
-        "steps": "",
-        "macros": {
-            "calories": 0,
-            "fats": 0,
-            "carbohydrates": 0,
-            "protein": 0
-        },
-        "servings": 0,
+        "servings": 8,
         "image_url": "fish-tacos.webp",
         "id": "5b3d8658-aa88-4e46-821d-2490aee51eb1"
     },
     {
         "name": "Mashed Potatoes",
         "difficulty": "easy",
-        "raiting": 2.5,
-        "description": "",
+        "raiting": 4.6,
+        "description": "This mashed potato recipe is perfect if you're looking for good, old-fashioned mashed potatoes. Made with just potatoes, milk, butter, and optional garlic, this go-to recipe makes a classic holiday dish. Learn how to make mashed potatoes that come out smooth, creamy, and delicious every time! Serve with gravy or extra butter on top.",
         "ingredients": [
+            
             {
-                "id": "dbc3c67e-db89-4a1b-8265-97f50aaef536",
-                "ingredient_id": "67a34802-41a2-46f7-8cf4-c38b509a9ac2",
-                "unit_type": "g",
-                "quantity": 1000
+                "id": "d62a636c-9728-4d0f-bb14-a939e00f7715",
+                "ingredient_id": "4f733d9c-a2dc-4001-b678-6d7630915652",
+                "unit_type": "unit",
+                "quantity": 4
             },
             {
-                "id": "85f4c083-354e-4af6-9cd6-44dffd3537e9",
-                "ingredient_id": "e433bb4b-25ff-40c1-ab7d-e29407f70afd",
+                "id": "508ff3f1-62ab-41e6-a763-70afad3edbb2",
+                "ingredient_id": "4ba85f8f-9223-4a47-915e-ac08a74087a4",
                 "unit_type": "g",
                 "quantity": 100
             },
             {
-                "id": "ed55d961-84f8-479a-b75c-acbe474fe100",
-                "ingredient_id": "7521fbbb-0f99-4f1c-86f8-10b1598740c4",
+                "id": "2e768cf6-a89d-4773-b2d1-3474bb348619",
+                "ingredient_id": "b3292a27-304c-4da2-b5b2-dcd545f9aad4",
                 "unit_type": "g",
-                "quantity": 2
-            },
-            {
-                "id": "8be3869b-ef70-4df8-a964-38b644d13998",
-                "ingredient_id": "5ae407bc-a581-4d15-9d4c-5a3d0aa70c52",
-                "unit_type": "g",
-                "quantity": 1
+                "quantity": 100
             }
         ],
-        "steps": "",
+        "steps": "Gather all ingredients.\n\nBring a large pot of salted water to a boil. Add potatoes and garlic, lower heat to medium, and simmer until potatoes are tender, 15 to 20 minutes.\n\nWhen the potatoes are almost finished, heat milk and butter in a small saucepan over low heat until butter is melted.\n\nDrain potatoes and return to the pot. Slowly add warm milk mixture, blending it in with a potato masher or electric mixer until potatoes are smooth and creamy.\n\nSeason with salt and pepper. Serve and enjoy!",
         "macros": {
-            "calories": 0,
-            "fats": 0,
-            "carbohydrates": 0,
-            "protein": 0
+            "calories": 263,
+            "fats": 7,
+            "carbohydrates": 44,
+            "protein": 6
         },
-        "servings": 0,
+        "servings": 4,
         "image_url": "mashed-potatoes.webp",
         "id": "5910ddaf-8562-4651-87f3-19ea1be7d8ea"
     },
     {
         "name": "Apple Pie",
-        "difficulty": "easy",
-        "raiting": 2.5,
-        "description": "",
+        "difficulty": "hard",
+        "raiting": 4.8,
+        "description": "This amazing apple pie recipe belonged to my grandmother. I have never seen another one quite like it! It will always be my favorite and has won several first place prizes in local competitions. It makes the perfect dessert for family dinners or during the holidays.",
         "ingredients": [
             {
-                "id": "bfc891bc-14f1-404e-a622-51502d7ad8e9",
-                "ingredient_id": "4a6a607b-8a88-4c58-83e2-0ea0049f0c26",
-                "unit_type": "g",
-                "quantity": 5
+                "id": "0644ae84-8176-4830-af43-211d81f25e67",
+                "ingredient_id": "d98ea964-5cd1-47b1-aa61-fc271ee41144",
+                "unit_type": "unit",
+                "quantity": 6
             },
             {
-                "id": "d52918d4-b6ea-4a86-9719-3d8a52275c9f",
-                "ingredient_id": "0efdfedb-371b-4f93-b18e-f1a359e2ab94",
+                "id": "53656d17-42b7-4bf6-9b82-df68ccec3049",
+                "ingredient_id": "b7924fe7-9889-4294-a270-156e049569cc",
                 "unit_type": "g",
-                "quantity": 1
+                "quantity": 250
+            },
+            {
+                "id": "30ed8d05-da1d-4cae-ad33-232ec78da2d2",
+                "ingredient_id": "fed39ccd-14e3-4ecf-b9da-0538cae61545",
+                "unit_type": "g",
+                "quantity": 200
+            },
+            {
+                "id": "5ad032db-72d9-4c29-8f08-3856d2b81242",
+                "ingredient_id": "15bf1846-58c3-4d77-8964-127aa51fe4f2",
+                "unit_type": "g",
+                "quantity": 50
             },
             {
                 "id": "4e1b4d27-ce09-42f7-b239-68bddd085041",
                 "ingredient_id": "e1da6867-6f46-4fc7-8553-49342367ffe7",
                 "unit_type": "g",
                 "quantity": 100
-            },
-            {
-                "id": "fea09dfd-93a0-474e-9eb2-d801c1cdb111",
-                "ingredient_id": "b991fa7e-d622-44ca-8157-f26c99d5260f",
-                "unit_type": "g",
-                "quantity": 1
-            },
-            {
-                "id": "5c8f26e8-7197-4cd2-9d84-8cecba56f2de",
-                "ingredient_id": "98495ebf-f2dd-41e2-ac04-8f2dce5b2121",
-                "unit_type": "g",
-                "quantity": 0.5
             }
         ],
-        "steps": "",
+        "steps": "Gather the ingredients. Preheat the oven to 425 degrees F (220 degrees C). Peel and core apples, then thinly slice. Set aside.\n\nMelt butter in a saucepan over medium heat. Add flour and stir to form a paste; cook until fragrant, about 1 to 2 minutes. Add both sugars and water; bring to a boil. Reduce the heat to low and simmer for 3 to 5 minutes. Remove from the heat.\n\nPress one pastry into the bottom and up the sides of a 9-inch pie pan. Roll out remaining pastry so it will overhang the pie by about 1/2 inch. Cut pastry into eight 1-inch strips.\n\nPlace sliced apples into the bottom crust, forming a slight mound. Lay four pastry strips vertically and evenly spaced over apples, using longer strips in the center and shorter strips at the edges.\n\nMake a lattice crust: Fold the first and third strips all the way back so they're almost falling off the pie. Lay one of the unused strips perpendicularly over the second and fourth strips, then unfold the first and third strips back into their original position.\n\nFold the second and fourth vertical strips back. Lay one of the three unused strips perpendicularly over top. Unfold the second and fourth strips back into their original position. Repeat Steps 6 and 7 to weave in the last two strips of pastry. Fold and trim excess dough at the edges as necessary, and pinch to secure.\n\nSlowly and gently pour sugar-butter mixture over lattice crust, making sure it seeps over sliced apples. Brush some onto lattice, but make sure it doesn't run off the sides.\n\nBake in the preheated oven for 15 minutes. Reduce the temperature to 350 degrees F (175 degrees C) and continue baking until apples are soft, 35 to 45 minutes.\n\nServe and enjoy!",
         "macros": {
-            "calories": 0,
-            "fats": 0,
-            "carbohydrates": 0,
-            "protein": 0
+            "calories": 387,
+            "fats": 19,
+            "carbohydrates": 52,
+            "protein": 2
         },
-        "servings": 0,
+        "servings": 8,
         "image_url": "apple-pie.webp",
         "id": "bad486a2-238e-43dd-a40c-6970efff9c40"
     }

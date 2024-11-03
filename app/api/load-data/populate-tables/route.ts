@@ -90,7 +90,7 @@ export async function GET(_: Request) {
             )
         );
 
-        await client.sql`COMMIT`;
+        // await client.sql`COMMIT`;
 
         return NextResponse.json(
             {

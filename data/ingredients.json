@@ -133,89 +133,204 @@
         "id": "5326df96-e2cc-4969-b28c-d3950fabb27f",
         "name": "Avocado",
         "macros": {
-            "calories": 234,
-            "fats": 21,
-            "carbohydrates": 12,
-            "protein": 3
+            "calories": 322,
+            "fats": 29,
+            "carbohydrates": 17,
+            "protein": 4
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "e90b937f-4165-4be8-aa4f-a47539fc7e47",
+                "unit_type": "unit",
+                "ratio": 1
+            },
+            {
+                "id": "1451c23b-f024-49d0-9108-4ea9fad90399",
+                "unit_type": "g",
+                "ratio": 201
+            }
+        ]
     },
     {
         "id": "24946b0c-5066-4ba6-9059-71e7b6dca70c",
         "name": "Lime",
         "macros": {
             "calories": 20,
-            "fats": 0,
-            "carbohydrates": 7,
-            "protein": 0
+            "fats": 0.1,
+            "carbohydrates": 7.1,
+            "protein": 0.5
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "fff5bf89-32fa-4f83-8fcc-7cef4bf1d0f1",
+                "unit_type": "unit",
+                "ratio": 1
+            },
+            {
+                "id": "f38974c5-001f-48cf-bac4-5692b996a7d3",
+                "unit_type": "g",
+                "ratio": 67
+            }
+        ]
     },
     {
         "id": "fc099eeb-a40f-4b91-96ff-6d8f77b94ac7",
         "name": "Tomato",
         "macros": {
-            "calories": 18,
-            "fats": 0,
-            "carbohydrates": 4,
-            "protein": 1
+            "calories": 22,
+            "fats": 0.3,
+            "carbohydrates": 4.8,
+            "protein": 1.1
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "7419427e-b2a1-458a-a4fa-826fb2eb91fe",
+                "unit_type": "unit",
+                "ratio": 1
+            },
+            {
+                "id": "29d53096-3441-4e63-94d6-a5fecca6a2a8",
+                "unit_type": "g",
+                "ratio": 123
+            }
+        ]
     },
     {
         "id": "5af4a8ec-2799-4a1d-9aa8-957764dd1a69",
         "name": "Onion",
         "macros": {
-            "calories": 40,
-            "fats": 0,
-            "carbohydrates": 9,
-            "protein": 1
+            "calories": 41,
+            "fats": 0.2,
+            "carbohydrates": 9.5,
+            "protein": 1.3
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "843ffc46-b07b-41f5-9391-567356221abe",
+                "unit_type": "unit",
+                "ratio": 1
+            },
+            {
+                "id": "dd4b829c-73bc-4e2b-bb3b-17efc905c64b",
+                "unit_type": "cup",
+                "ratio": 2
+            },
+            {
+                "id": "74781d64-f90b-46df-9069-b01669f1067f",
+                "unit_type": "g",
+                "ratio": 94
+            }
+        ]
     },
     {
         "id": "9f844d80-af8a-406b-a08b-510359f30470",
         "name": "Cilantro",
         "macros": {
-            "calories": 1,
-            "fats": 0,
-            "carbohydrates": 0.2,
-            "protein": 0.1
+            "calories": 3.7,
+            "fats": 0.1,
+            "carbohydrates": 0.6,
+            "protein": 0.4
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "404e39f4-c215-45b4-88bf-6330d9bc358d",
+                "unit_type": "cup",
+                "ratio": 1
+            },
+            {
+                "id": "eb006d64-b4a6-4748-8f60-28af16d5e18e",
+                "unit_type": "g",
+                "ratio": 16
+            }
+        ]
     },
     {
         "id": "a1f606d9-49b1-4292-aa9f-95b0e0c7730d",
         "name": "Spaghetti",
         "macros": {
-            "calories": 158,
-            "fats": 1,
-            "carbohydrates": 31,
-            "protein": 5
+            "calories": 1376,
+            "fats": 12,
+            "carbohydrates": 254.8,
+            "protein": 46.4
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "4d48f0d3-aecc-4ce3-b9f9-e3d3d7e3eee0",
+                "unit_type": "package",
+                "ratio": 1
+            },
+            {
+                "id": "a1a6d6b9-fe62-49a9-88a2-9313afc9b516",
+                "unit_type": "g",
+                "ratio": 400
+            }
+        ]
+    },
+    {
+        "id": "a7f2e03f-081d-4fb8-ad42-0171e807138d",
+        "name": "Bacon",
+        "macros": {
+            "calories": 53.8,
+            "fats": 4,
+            "carbohydrates": 0.2,
+            "protein": 4
+        },
+        "conversions": [
+            {
+                "id": "678d2de8-e799-423d-bc5f-53f0d9b427cd",
+                "unit_type": "slice",
+                "ratio": 1
+            },
+            {
+                "id": "cfb9bc5f-bb81-4f1f-a3d7-07a5132dc6d2",
+                "unit_type": "g",
+                "ratio": 11.7
+            }
+        ]
     },
     {
         "id": "2ae2f24d-d79d-4d64-9cf3-80fa6ef465eb",
         "name": "Ground Beef",
         "macros": {
-            "calories": 250,
-            "fats": 17,
+            "calories": 2725.8,
+            "fats": 177,
             "carbohydrates": 0,
-            "protein": 26
+            "protein": 274.3
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "8849ea47-7938-4bdb-bcf1-124ab33047aa",
+                "unit_type": "Kg",
+                "ratio": 1
+            },
+            {
+                "id": "6a9956de-c8ec-45f1-af9a-5181823367e2",
+                "unit_type": "g",
+                "ratio": 1000
+            }
+        ]
     },
     {
         "id": "4a049240-db40-413a-aa8c-fdbb0e68615e",
         "name": "Carrot",
         "macros": {
-            "calories": 41,
-            "fats": 0,
-            "carbohydrates": 10,
-            "protein": 1
+            "calories": 16,
+            "fats": 0.1,
+            "carbohydrates": 3.8,
+            "protein": 0.4
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "747381f4-64f4-4dc9-b271-d5351b1f6657",
+                "unit_type": "unit",
+                "ratio": 1
+            },
+            {
+                "id": "075b1d41-e35b-45a3-ba12-12c66ab17c28",
+                "unit_type": "g",
+                "ratio": 46
+            }
+        ]
     },
     {
         "id": "ece69701-cc55-461f-a180-3a66f10ee8eb",
@@ -226,7 +341,18 @@
             "carbohydrates": 0,
             "protein": 0
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "0779a03c-cbbd-4593-8c0c-942844beb15e",
+                "unit_type": "tbsp",
+                "ratio": 1
+            },
+            {
+                "id": "589b0164-6318-4783-bc24-15828f5161e4",
+                "unit_type": "g",
+                "ratio": 14
+            }
+        ]
     },
     {
         "id": "cf7a7512-9e3f-41c2-89da-ad3c82816b6c",
@@ -243,34 +369,77 @@
         "id": "fcb674dc-1c9f-4c9e-8849-14eb2578235f",
         "name": "Romaine Lettuce",
         "macros": {
-            "calories": 15,
-            "fats": 0,
-            "carbohydrates": 3,
-            "protein": 1
+            "calories": 106.4,
+            "fats": 1.9,
+            "carbohydrates": 20.6,
+            "protein": 8
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "4a23d398-e3b1-4a86-b31f-2d20ad2697ed",
+                "unit_type": "head",
+                "ratio": 1
+            },
+            {
+                "id": "a29de215-d96c-4bb9-95f9-87675afb1043",
+                "unit_type": "cup",
+                "ratio": 13.3
+            },
+            {
+                "id": "3f40532d-0143-428b-b94f-a1bbea9eeb1b",
+                "unit_type": "g",
+                "ratio": 626
+            }
+        ]
     },
     {
         "id": "4cbbd154-6a10-4cc3-ac64-5274cb82335b",
         "name": "Parmesan Cheese",
         "macros": {
-            "calories": 431,
-            "fats": 29,
-            "carbohydrates": 4,
-            "protein": 38
+            "calories": 336,
+            "fats": 22.4,
+            "carbohydrates": 11.2,
+            "protein": 22.4
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "aaec74d2-9564-474e-a3ef-8380e432403b",
+                "unit_type": "cup",
+                "ratio": 1
+            },
+            {
+                "id": "e88632a1-197b-4deb-8c45-f99df8566700",
+                "unit_type": "tbsp",
+                "ratio": 16
+            },
+            {
+                "id": "738ce4f5-d241-4593-868d-31fd5912f6ea",
+                "unit_type": "g",
+                "ratio": 80
+            }
+        ]
     },
     {
         "id": "848f1930-7651-4158-b5a6-1845d55ed5ff",
         "name": "Croutons",
         "macros": {
-            "calories": 122,
-            "fats": 2,
-            "carbohydrates": 26,
-            "protein": 4
+            "calories": 15,
+            "fats": 0.5,
+            "carbohydrates": 2,
+            "protein": 0.5
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "b3275f81-2754-4e1c-9771-ca8aaf8372a1",
+                "unit_type": "tbsp",
+                "ratio": 16
+            },
+            {
+                "id": "11e6f591-8481-4fdb-9559-9d33e3fd4ba9",
+                "unit_type": "g",
+                "ratio": 3.5
+            }
+        ]
     },
     {
         "id": "7ff1e81e-3f80-4dde-a9be-1a68f5dffa95",
@@ -320,12 +489,45 @@
         "id": "c1665258-ceae-449c-88c8-392eb5bdf59f",
         "name": "Garlic",
         "macros": {
-            "calories": 149,
-            "fats": 0.5,
-            "carbohydrates": 33,
-            "protein": 6
+            "calories": 4.9,
+            "fats": 0,
+            "carbohydrates": 1,
+            "protein": 0.2
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "5c6e62cb-2afe-4acb-a0df-862af3d2fc89",
+                "unit_type": "clove",
+                "ratio": 1
+            },
+            {
+                "id": "1b44f434-9291-41b5-8a6e-b64e680ff305",
+                "unit_type": "g",
+                "ratio": 3
+            }
+        ]
+    },
+    {
+        "id": "0223c44a-9582-4c0c-acd6-15a6668eadb3",
+        "name": "Cayenne Pepper",
+        "macros": {
+            "calories": 5.7,
+            "fats": 0.3,
+            "carbohydrates": 1,
+            "protein": 0.2
+        },
+        "conversions": [
+            {
+                "id": "c5502798-b720-41a5-8d2d-989d15c3f47e",
+                "unit_type": "tsp",
+                "ratio": 1
+            },
+            {
+                "id": "fec2f7a2-57a8-4a44-a672-55f3b0a0df83",
+                "unit_type": "g",
+                "ratio": 1.8
+            }
+        ]
     },
     {
         "id": "90ebce03-f71d-4e3f-93ff-e930a9683a80",
@@ -578,6 +780,264 @@
             "carbohydrates": 0,
             "protein": 0
         },
-        "conversions": []
+        "conversions": [
+            {
+                "id": "c08ac923-a289-4146-9ca2-b353b4779a7c",
+                "unit_type": "tsp",
+                "ratio": 1
+            },
+            {
+                "id": "8a3e454b-a6ec-4b6c-8209-f7a2f97301ca",
+                "unit_type": "g",
+                "ratio": 6
+            }
+        ]
+    },
+    {
+        "id": "117ba4e1-8756-4fe3-9d21-6e3a6c7720e7",
+        "name": "Celery",
+        "macros": {
+            "calories": 6.4,
+            "fats": 0.1,
+            "carbohydrates": 1.2,
+            "protein": 0.3
+        },
+        "conversions": [
+            {
+                "id": "2087b84f-4be9-4953-b22b-4e2e66868909",
+                "unit_type": "stalk",
+                "ratio": 1
+            },
+            {
+                "id": "0c3d893f-298e-4fc4-9e9c-aa573c3fb4cb",
+                "unit_type": "g",
+                "ratio": 40
+            }
+        ]
+    },
+    {
+        "id": "7c8cde14-a9ef-4ce6-9f50-8b567f1265e0",
+        "name": "Dried Oregano",
+        "macros": {
+            "calories": 2.7,
+            "fats": 0,
+            "carbohydrates": 0.7,
+            "protein": 0.1
+        },
+        "conversions": [
+            {
+                "id": "6f3cf5fa-4ab5-4661-a9f5-056eed96bea8",
+                "unit_type": "tsp",
+                "ratio": 1
+            },
+            {
+                "id": "5d865503-e31d-42d7-ae4d-100c5d867f66",
+                "unit_type": "g",
+                "ratio": 1
+            }
+        ]
+    },
+    {
+        "id": "e28f9a89-b467-45f4-86de-2297f9e64e26",
+        "name": "Balsamic Vinegar",
+        "macros": {
+            "calories": 14,
+            "fats": 0,
+            "carbohydrates": 2.7,
+            "protein": 0.1
+        },
+        "conversions": [
+            {
+                "id": "9321d188-a332-4fe1-b563-7d494b62177f",
+                "unit_type": "tbsp",
+                "ratio": 1
+            },
+            {
+                "id": "cb22caf9-2f80-4f12-a219-f0c072f60e05",
+                "unit_type": "g",
+                "ratio": 16
+            }
+        ]
+    },
+    {
+        "id": "f71d1278-60f0-4f6e-9f75-dddd0d9d5039",
+        "name": "Crushed Tomato",
+        "macros": {
+            "calories": 100,
+            "fats": 1,
+            "carbohydrates": 22.8,
+            "protein": 5.5
+        },
+        "conversions": [
+            {
+                "id": "ea55afb6-4321-4dbe-8822-e16e922a49f9",
+                "unit_type": "can",
+                "ratio": 1
+            },
+            {
+                "id": "c6de43f7-24de-4bc7-b59f-0df254c2dbad",
+                "unit_type": "g",
+                "ratio": 310
+            }
+        ]
+    },
+    {
+        "id": "a7c9ca3d-be41-49da-a8db-c288ceb166b1",
+        "name": "Tomato Paste",
+        "macros": {
+            "calories": 13,
+            "fats": 0.1,
+            "carbohydrates": 3,
+            "protein": 0.7
+        },
+        "conversions": [
+            {
+                "id": "3af4e8e0-5641-44a9-81e9-7fc82ff700b2",
+                "unit_type": "tbsp",
+                "ratio": 1
+            },
+            {
+                "id": "ceb583d7-6028-447f-b3c7-e28da491cbf6",
+                "unit_type": "g",
+                "ratio": 16
+            }
+        ]
+    },
+    {
+        "id": "c812e65e-c081-4294-a241-0602520bae58",
+        "name": "Basil",
+        "macros": {
+            "calories": 0,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "conversions": [
+            {
+                "id": "3cd289d4-d08c-45da-a2a2-c09535cdb919",
+                "unit_type": "leaf",
+                "ratio": 1
+            },
+            {
+                "id": "861da8d5-6487-4543-80eb-56a389632cab",
+                "unit_type": "tbsp",
+                "ratio": 10
+            },
+            {
+                "id": "3803caa2-de78-4d47-bf6e-57706d4038f4",
+                "unit_type": "g",
+                "ratio": 0.5
+            }
+        ]
+    },
+    {
+        "id": "631dea13-2a99-43d4-b9c0-ba7c719c2fcd",
+        "name": "Anchovy",
+        "macros": {
+            "calories": 8.4,
+            "fats": 0.4,
+            "carbohydrates": 0,
+            "protein": 0.2
+        },
+        "conversions": [
+            {
+                "id": "f1a64dcb-b5f6-4dec-b2d8-77521932e430",
+                "unit_type": "fillet",
+                "ratio": 1
+            },
+            {
+                "id": "e88823d7-3de0-4be1-834a-a805feb5ba84",
+                "unit_type": "g",
+                "ratio": 4
+            }
+        ]
+    },
+    {
+        "id": "ac6bf19a-d5d7-4a23-a2a6-e1f69a175701",
+        "name": "Lemon Juice",
+        "macros": {
+            "calories": 3.6,
+            "fats": 0,
+            "carbohydrates": 0.8,
+            "protein": 0.1
+        },
+        "conversions": [
+            {
+                "id": "da2de60e-5e70-48b3-9627-2bad34774894",
+                "unit_type": "tbsp",
+                "ratio": 1
+            },
+            {
+                "id": "21c25bd2-8dbc-490b-b862-d20880bd1173",
+                "unit_type": "g",
+                "ratio": 15
+            }
+        ]
+    },
+    {
+        "id": "1df6f047-bde0-4ef0-b26f-7a9e305b416f",
+        "name": "Red Wine Vinegar",
+        "macros": {
+            "calories": 2.8,
+            "fats": 0,
+            "carbohydrates": 0,
+            "protein": 0
+        },
+        "conversions": [
+            {
+                "id": "81ea5619-7979-4f60-8f42-f0a0df4378f5",
+                "unit_type": "tbsp",
+                "ratio": 1
+            },
+            {
+                "id": "c3832ccb-014f-469e-ab93-45a1b2f845da",
+                "unit_type": "g",
+                "ratio": 15
+            }
+        ]
+    },
+    {
+        "id": "9f7f9160-c7b7-465b-89fd-38b7690462dd",
+        "name": "Egg Yolk",
+        "macros": {
+            "calories": 55,
+            "fats": 4.5,
+            "carbohydrates": 0.6,
+            "protein": 2.7
+        },
+        "conversions": [
+            {
+                "id": "4c0015cc-ca96-4f72-843f-c7c54c9b9a62",
+                "unit_type": "unit",
+                "ratio": 1
+            },
+            {
+                "id": "7695125c-bb5c-4ec7-9a0b-05d9a01399a5",
+                "unit_type": "g",
+                "ratio": 17
+            }
+        ]
+    },
+    {
+        "id": "4e7b9732-f3f8-4328-adf5-6f3f8065024a",
+        "name": "Dijon Mustard",
+        "macros": {
+            "calories": 9.3,
+            "fats": 0.5,
+            "carbohydrates": 0.9,
+            "protein": 0.6
+        },
+        "conversions": [
+            {
+                "id": "091db3bb-4d9a-4847-a82b-4df6c09cf76a",
+                "unit_type": "tbsp",
+                "ratio": 1
+            },
+            {
+                "id": "f7eb49e5-429d-4405-acc8-51aaddd0fa89",
+                "unit_type": "g",
+                "ratio": 16.2
+            }
+        ]
     }
 ]
